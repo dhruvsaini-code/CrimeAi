@@ -1,0 +1,29 @@
+{
+  "model_pipeline_version": "1.0.0",
+  "dataset_version": "1.0.0-verified",
+  "training_timestamp": "2026-11-11 16:46:13 UTC",
+  "total_cases_trained": 492,
+  "total_training_duration_seconds": 1.52,
+  "models_serialized": [
+    "pipeline.joblib",
+    "clustering.joblib",
+    "search_engine.joblib",
+    "graph_engine.joblib",
+    "anomaly_detector.joblib"
+  ],
+  "caches_serialized": [
+    "clustering_cache.json",
+    "search_benchmarks.json",
+    "graph_cache.json",
+    "anomaly_cache.json",
+    "association_cache.json",
+    "optimization_cache.json"
+  ],
+  "evaluation_summary": {
+    "kmeans_silhouette": 0.1236,
+    "kmeans_davies_bouldin": 1.9572,
+    "total_variance_explained_pct": 38.6,
+    "association_rules_count": 40,
+    "graph_communities_count": 13
+  }
+}
