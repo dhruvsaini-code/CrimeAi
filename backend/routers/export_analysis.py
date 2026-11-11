@@ -66,3 +66,4 @@ def export_analysis_markdown(req: AnalyzeCaseRequest):
         media_type="text/markdown",
         headers={"Content-Disposition": "attachment; filename=crimepattern_forensic_dossier.md"},
     )
+
