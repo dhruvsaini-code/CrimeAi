@@ -1,0 +1,3263 @@
+{
+  "total_nodes": 100,
+  "total_edges": 500,
+  "total_communities": 13,
+  "nodes": [
+    {
+      "id": "CASE-300",
+      "name": "Harold Shipman",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "decade": 1970,
+      "method": "Poisoning / Medical",
+      "victims": 250,
+      "pagerank": 0.6704,
+      "community": 5,
+      "degree": 14
+    },
+    {
+      "id": "CASE-001",
+      "name": "Luis Garavito",
+      "country": "Colombia Ecuador Venezuela",
+      "region": "South America",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 193,
+      "pagerank": 0.5315,
+      "community": 8,
+      "degree": 11
+    },
+    {
+      "id": "CASE-002",
+      "name": "Mariam Soulakiotis",
+      "country": "Unknown",
+      "region": "Global / Unassigned",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 177,
+      "pagerank": 0.7188,
+      "community": 6,
+      "degree": 16
+    },
+    {
+      "id": "CASE-454",
+      "name": "Pedro L\u00f3pez",
+      "country": "Colombia",
+      "region": "South America",
+      "decade": 1960,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 110,
+      "pagerank": 0.287,
+      "community": 8,
+      "degree": 5
+    },
+    {
+      "id": "CASE-455",
+      "name": "Javed Iqbal",
+      "country": "Pakistan",
+      "region": "Asia",
+      "decade": 1990,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 100,
+      "pagerank": 0.3324,
+      "community": 9,
+      "degree": 5
+    },
+    {
+      "id": "CASE-345",
+      "name": "Abboud and Khajawa",
+      "country": "Ottoman Empire (present-day Iraq )",
+      "region": "Global / Unassigned",
+      "decade": 1910,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 100,
+      "pagerank": 0.3478,
+      "community": 6,
+      "degree": 7
+    },
+    {
+      "id": "CASE-301",
+      "name": "Niels H\u00f6gel",
+      "country": "Germany",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Poisoning / Medical",
+      "victims": 85,
+      "pagerank": 0.5905,
+      "community": 5,
+      "degree": 13
+    },
+    {
+      "id": "CASE-003",
+      "name": "Mikhail Popkov",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 83,
+      "pagerank": 0.4281,
+      "community": 4,
+      "degree": 8
+    },
+    {
+      "id": "CASE-400",
+      "name": "\"Highway of Tears\" Killer",
+      "country": "Canada",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 80,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-004",
+      "name": "Daniel Camargo Barbosa",
+      "country": "Colombia",
+      "region": "South America",
+      "decade": 1970,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 72,
+      "pagerank": 0.2892,
+      "community": 12,
+      "degree": 4
+    },
+    {
+      "id": "CASE-006",
+      "name": "Kampatimar Shankariya",
+      "country": "India",
+      "region": "Asia",
+      "decade": 1970,
+      "method": "Blunt Force / Beating",
+      "victims": 70,
+      "pagerank": 0.1434,
+      "community": 7,
+      "degree": 1
+    },
+    {
+      "id": "CASE-007",
+      "name": "Hoshang Amini",
+      "country": "Iran",
+      "region": "Asia",
+      "decade": 1950,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 67,
+      "pagerank": 0.3222,
+      "community": 1,
+      "degree": 6
+    },
+    {
+      "id": "CASE-008",
+      "name": "Yang Xinhai",
+      "country": "China",
+      "region": "Asia",
+      "decade": 2000,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 67,
+      "pagerank": 0.198,
+      "community": 1,
+      "degree": 3
+    },
+    {
+      "id": "CASE-009",
+      "name": "Abul Djabar",
+      "country": "Kingdom of Afghanistan",
+      "region": "Global / Unassigned",
+      "decade": 1980,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 65,
+      "pagerank": 0.4126,
+      "community": 6,
+      "degree": 6
+    },
+    {
+      "id": "CASE-173",
+      "name": "Ershad Sikder",
+      "country": "Bangladesh",
+      "region": "Global / Unassigned",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 60,
+      "pagerank": 0.7255,
+      "community": 6,
+      "degree": 16
+    },
+    {
+      "id": "CASE-010",
+      "name": "Samuel Little",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 60,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-014",
+      "name": "Anatoly Onoprienko",
+      "country": "Soviet Union [ nb 1 ] Ukraine",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 52,
+      "pagerank": 0.8161,
+      "community": 2,
+      "degree": 19
+    },
+    {
+      "id": "CASE-013",
+      "name": "Andrei Chikatilo",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1970,
+      "method": "Firearm",
+      "victims": 52,
+      "pagerank": 0.4492,
+      "community": 9,
+      "degree": 7
+    },
+    {
+      "id": "CASE-302",
+      "name": "Baba Anujka",
+      "country": "Kingdom of Yugoslavia",
+      "region": "Global / Unassigned",
+      "decade": 1980,
+      "method": "Poisoning / Medical",
+      "victims": 50,
+      "pagerank": 0.5306,
+      "community": 6,
+      "degree": 10
+    },
+    {
+      "id": "CASE-015",
+      "name": "Florisvaldo de Oliveira",
+      "country": "Brazil",
+      "region": "South America",
+      "decade": 1980,
+      "method": "Firearm",
+      "victims": 50,
+      "pagerank": 0.3011,
+      "community": 9,
+      "degree": 4
+    },
+    {
+      "id": "CASE-017",
+      "name": "Alexander Pichushkin",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 49,
+      "pagerank": 0.7061,
+      "community": 9,
+      "degree": 13
+    },
+    {
+      "id": "CASE-456",
+      "name": "Wang Qiang",
+      "country": "China",
+      "region": "Asia",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 45,
+      "pagerank": 0.4209,
+      "community": 9,
+      "degree": 7
+    },
+    {
+      "id": "CASE-303",
+      "name": "Louay Omar Mohammed al-Taei",
+      "country": "Iraq",
+      "region": "Global / Unassigned",
+      "decade": 2000,
+      "method": "Poisoning / Medical",
+      "victims": 43,
+      "pagerank": 0.3884,
+      "community": 6,
+      "degree": 7
+    },
+    {
+      "id": "CASE-018",
+      "name": "Ahmad Suradji",
+      "country": "Indonesia",
+      "region": "Asia",
+      "decade": 1980,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 42,
+      "pagerank": 0.2982,
+      "community": 9,
+      "degree": 4
+    },
+    {
+      "id": "CASE-019",
+      "name": "Raman Raghav",
+      "country": "India",
+      "region": "Asia",
+      "decade": 1960,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 41,
+      "pagerank": 0.4164,
+      "community": 1,
+      "degree": 8
+    },
+    {
+      "id": "CASE-020",
+      "name": "Moses Sithole",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 38,
+      "pagerank": 0.6205,
+      "community": 10,
+      "degree": 13
+    },
+    {
+      "id": "CASE-304",
+      "name": "Donald Harvey",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Poisoning / Medical",
+      "victims": 37,
+      "pagerank": 0.6806,
+      "community": 3,
+      "degree": 15
+    },
+    {
+      "id": "CASE-021",
+      "name": "Serhiy Tkach",
+      "country": "Soviet Union Ukraine",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 37,
+      "pagerank": 0.8161,
+      "community": 2,
+      "degree": 19
+    },
+    {
+      "id": "CASE-023",
+      "name": "Hadj Mohammed Mesfewi",
+      "country": "Morocco",
+      "region": "Africa",
+      "decade": 1980,
+      "method": "Poisoning / Medical",
+      "victims": 36,
+      "pagerank": 0.3157,
+      "community": 5,
+      "degree": 6
+    },
+    {
+      "id": "CASE-022",
+      "name": "Gennady Mikhasevich",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1970,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 36,
+      "pagerank": 0.331,
+      "community": 12,
+      "degree": 5
+    },
+    {
+      "id": "CASE-426",
+      "name": "Clementine Barnabet",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1910,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 35,
+      "pagerank": 0.1679,
+      "community": 0,
+      "degree": 2
+    },
+    {
+      "id": "CASE-027",
+      "name": "John Wayne Gacy",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Poisoning / Medical",
+      "victims": 33,
+      "pagerank": 0.6806,
+      "community": 3,
+      "degree": 15
+    },
+    {
+      "id": "CASE-025",
+      "name": "Fernando Hern\u00e1ndez Leyva",
+      "country": "Mexico",
+      "region": "North America",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 33,
+      "pagerank": 0.885,
+      "community": 0,
+      "degree": 20
+    },
+    {
+      "id": "CASE-026",
+      "name": "Toregeldy Zharambaev",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 33,
+      "pagerank": 0.4281,
+      "community": 4,
+      "degree": 8
+    },
+    {
+      "id": "CASE-029",
+      "name": "Vasili Komaroff",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1920,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 33,
+      "pagerank": 0.2111,
+      "community": 4,
+      "degree": 3
+    },
+    {
+      "id": "CASE-028",
+      "name": "Ali Asghar Borujerdi",
+      "country": "Iran",
+      "region": "Asia",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 33,
+      "pagerank": 0.7973,
+      "community": 1,
+      "degree": 17
+    },
+    {
+      "id": "CASE-030",
+      "name": "Ramadan Abdel Rehim Mansour",
+      "country": "Egypt",
+      "region": "Africa",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 32,
+      "pagerank": 0.6062,
+      "community": 10,
+      "degree": 12
+    },
+    {
+      "id": "CASE-031",
+      "name": "Radik Tagirov",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 2010,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 31,
+      "pagerank": 0.3776,
+      "community": 2,
+      "degree": 8
+    },
+    {
+      "id": "CASE-314",
+      "name": "Fr\u00e9d\u00e9ric P\u00e9chier",
+      "country": "France",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Poisoning / Medical",
+      "victims": 30,
+      "pagerank": 0.5905,
+      "community": 5,
+      "degree": 13
+    },
+    {
+      "id": "CASE-306",
+      "name": "Charles Cullen",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1980,
+      "method": "Poisoning / Medical",
+      "victims": 29,
+      "pagerank": 0.6419,
+      "community": 3,
+      "degree": 13
+    },
+    {
+      "id": "CASE-350",
+      "name": "Borman Gang",
+      "country": "Kazakhstan",
+      "region": "Global / Unassigned",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 29,
+      "pagerank": 0.7255,
+      "community": 6,
+      "degree": 16
+    },
+    {
+      "id": "CASE-307",
+      "name": "Stephan Letter",
+      "country": "Germany",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Poisoning / Medical",
+      "victims": 28,
+      "pagerank": 0.5905,
+      "community": 5,
+      "degree": 13
+    },
+    {
+      "id": "CASE-309",
+      "name": "Marcel Petiot",
+      "country": "German-occupied France",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Poisoning / Medical",
+      "victims": 27,
+      "pagerank": 0.7211,
+      "community": 5,
+      "degree": 16
+    },
+    {
+      "id": "CASE-311",
+      "name": "Roger Andermatt",
+      "country": "Switzerland",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Poisoning / Medical",
+      "victims": 22,
+      "pagerank": 0.5626,
+      "community": 5,
+      "degree": 12
+    },
+    {
+      "id": "CASE-310",
+      "name": "Arnfinn Nesset",
+      "country": "Norway",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Poisoning / Medical",
+      "victims": 22,
+      "pagerank": 0.7211,
+      "community": 5,
+      "degree": 16
+    },
+    {
+      "id": "CASE-012",
+      "name": "Mohammed Bijeh",
+      "country": "Iran",
+      "region": "Asia",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 21,
+      "pagerank": 0.576,
+      "community": 1,
+      "degree": 12
+    },
+    {
+      "id": "CASE-080",
+      "name": "Joseph Christopher",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1980,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 19,
+      "pagerank": 0.4829,
+      "community": 0,
+      "degree": 8
+    },
+    {
+      "id": "CASE-492",
+      "name": "Sergei Ryakhovsky",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 19,
+      "pagerank": 0.5759,
+      "community": 4,
+      "degree": 11
+    },
+    {
+      "id": "CASE-205",
+      "name": "Walter E. Ellis",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Poisoning / Medical",
+      "victims": 18,
+      "pagerank": 0.6806,
+      "community": 3,
+      "degree": 15
+    },
+    {
+      "id": "CASE-353",
+      "name": "Ripper Crew",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1980,
+      "method": "Firearm",
+      "victims": 17,
+      "pagerank": 0.3637,
+      "community": 0,
+      "degree": 6
+    },
+    {
+      "id": "CASE-355",
+      "name": "Vladyslav Volkovich and Volodymyr Kondratenko",
+      "country": "Ukraine",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Poisoning / Medical",
+      "victims": 16,
+      "pagerank": 0.5626,
+      "community": 5,
+      "degree": 12
+    },
+    {
+      "id": "CASE-037",
+      "name": "Monster of Florence",
+      "country": "Italy",
+      "region": "Europe",
+      "decade": 1960,
+      "method": "Arson / Fire",
+      "victims": 16,
+      "pagerank": 0.1195,
+      "community": 2,
+      "degree": 1
+    },
+    {
+      "id": "CASE-032",
+      "name": "Carl Eugene Watts",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 15,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-357",
+      "name": "Jos\u00e9 Miculax Bux and Mariano Mac\u00fa Miculax",
+      "country": "Guatemala",
+      "region": "Global / Unassigned",
+      "decade": 1940,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 15,
+      "pagerank": 0.1341,
+      "community": 6,
+      "degree": 1
+    },
+    {
+      "id": "CASE-056",
+      "name": "Richard Ramirez",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1980,
+      "method": "Blunt Force / Beating",
+      "victims": 15,
+      "pagerank": 0.3711,
+      "community": 7,
+      "degree": 6
+    },
+    {
+      "id": "CASE-354",
+      "name": "Death Angels",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 15,
+      "pagerank": 0.627,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-049",
+      "name": "Denis Kazungu",
+      "country": "Rwanda",
+      "region": "Global / Unassigned",
+      "decade": 2020,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.3478,
+      "community": 6,
+      "degree": 7
+    },
+    {
+      "id": "CASE-035",
+      "name": "Zdzis\u0142aw Marchwicki",
+      "country": "Poland",
+      "region": "Europe",
+      "decade": 1960,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.5684,
+      "community": 2,
+      "degree": 11
+    },
+    {
+      "id": "CASE-040",
+      "name": "Naceur Damergi",
+      "country": "Tunisia",
+      "region": "Global / Unassigned",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.7188,
+      "community": 6,
+      "degree": 16
+    },
+    {
+      "id": "CASE-483",
+      "name": "William Bonin",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1960,
+      "method": "Poisoning / Medical",
+      "victims": 14,
+      "pagerank": 0.3464,
+      "community": 3,
+      "degree": 6
+    },
+    {
+      "id": "CASE-036",
+      "name": "Julio P\u00e9rez Silva",
+      "country": "Chile",
+      "region": "South America",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 14,
+      "pagerank": 0.5725,
+      "community": 9,
+      "degree": 10
+    },
+    {
+      "id": "CASE-048",
+      "name": "Amir Qayyum",
+      "country": "Pakistan",
+      "region": "Asia",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.576,
+      "community": 1,
+      "degree": 12
+    },
+    {
+      "id": "CASE-033",
+      "name": "Belle Gunness",
+      "country": "Unknown",
+      "region": "Global / Unassigned",
+      "decade": 1900,
+      "method": "Firearm",
+      "victims": 14,
+      "pagerank": 0.1987,
+      "community": 9,
+      "degree": 2
+    },
+    {
+      "id": "CASE-046",
+      "name": "Abdufatto Zamanov",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.7,
+      "community": 2,
+      "degree": 16
+    },
+    {
+      "id": "CASE-320",
+      "name": "Elizabeth Wettlaufer",
+      "country": "Canada",
+      "region": "North America",
+      "decade": 2000,
+      "method": "Poisoning / Medical",
+      "victims": 14,
+      "pagerank": 0.4453,
+      "community": 3,
+      "degree": 9
+    },
+    {
+      "id": "CASE-034",
+      "name": "Philipp Tyurin",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1940,
+      "method": "Firearm",
+      "victims": 14,
+      "pagerank": 0.1763,
+      "community": 9,
+      "degree": 2
+    },
+    {
+      "id": "CASE-042",
+      "name": "Sergey Shipilov",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 1.0,
+      "community": 2,
+      "degree": 23
+    },
+    {
+      "id": "CASE-047",
+      "name": "Jeong Nam-gyu",
+      "country": "South Korea",
+      "region": "Asia",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.576,
+      "community": 1,
+      "degree": 12
+    },
+    {
+      "id": "CASE-457",
+      "name": "Muthukutty Chandran",
+      "country": "India",
+      "region": "Asia",
+      "decade": 1980,
+      "method": "Blunt Force / Beating",
+      "victims": 14,
+      "pagerank": 0.3986,
+      "community": 7,
+      "degree": 5
+    },
+    {
+      "id": "CASE-041",
+      "name": "Marcelo Costa de Andrade",
+      "country": "Brazil",
+      "region": "South America",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.5315,
+      "community": 8,
+      "degree": 11
+    },
+    {
+      "id": "CASE-039",
+      "name": "Arthur Shawcross",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-043",
+      "name": "Dor\u00e1ngel Vargas",
+      "country": "Venezuela",
+      "region": "South America",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.5315,
+      "community": 8,
+      "degree": 11
+    },
+    {
+      "id": "CASE-044",
+      "name": "Hua Ruizhuo",
+      "country": "China",
+      "region": "Asia",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 14,
+      "pagerank": 0.4209,
+      "community": 9,
+      "degree": 7
+    },
+    {
+      "id": "CASE-045",
+      "name": "Denis Pischikov",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.7,
+      "community": 2,
+      "degree": 16
+    },
+    {
+      "id": "CASE-055",
+      "name": "William Suff",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-110",
+      "name": "Milton Johnson",
+      "country": "Unknown",
+      "region": "Global / Unassigned",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 14,
+      "pagerank": 0.7188,
+      "community": 6,
+      "degree": 16
+    },
+    {
+      "id": "CASE-067",
+      "name": "Duan Guocheng",
+      "country": "China",
+      "region": "Asia",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 13,
+      "pagerank": 0.4209,
+      "community": 9,
+      "degree": 7
+    },
+    {
+      "id": "CASE-070",
+      "name": "Li Wenxiang",
+      "country": "China",
+      "region": "Asia",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.897,
+      "community": 1,
+      "degree": 19
+    },
+    {
+      "id": "CASE-459",
+      "name": "Mukosi Freddy Mulaudzi",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.6205,
+      "community": 10,
+      "degree": 13
+    },
+    {
+      "id": "CASE-458",
+      "name": "Fosaville Serial Killer",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 1990,
+      "method": "Arson / Fire",
+      "victims": 13,
+      "pagerank": 0.1568,
+      "community": 10,
+      "degree": 2
+    },
+    {
+      "id": "CASE-051",
+      "name": "Jake Bird",
+      "country": "Unknown",
+      "region": "Global / Unassigned",
+      "decade": 1930,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 13,
+      "pagerank": 0.0756,
+      "community": 11,
+      "degree": 0
+    },
+    {
+      "id": "CASE-052",
+      "name": "Cleveland Torso Murderer",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1930,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.3433,
+      "community": 0,
+      "degree": 7
+    },
+    {
+      "id": "CASE-053",
+      "name": "Kaspars Petrovs",
+      "country": "Latvia",
+      "region": "Global / Unassigned",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.6758,
+      "community": 6,
+      "degree": 15
+    },
+    {
+      "id": "CASE-215",
+      "name": "Lorenzo Gilyard",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 13,
+      "pagerank": 0.748,
+      "community": 0,
+      "degree": 15
+    },
+    {
+      "id": "CASE-066",
+      "name": "Nikolai Dudin",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Blunt Force / Beating",
+      "victims": 13,
+      "pagerank": 0.4266,
+      "community": 7,
+      "degree": 8
+    },
+    {
+      "id": "CASE-057",
+      "name": "Sleepy Hollow Killer",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 2000,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 13,
+      "pagerank": 0.1186,
+      "community": 10,
+      "degree": 1
+    },
+    {
+      "id": "CASE-069",
+      "name": "Thozamile Taki",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.5842,
+      "community": 10,
+      "degree": 13
+    },
+    {
+      "id": "CASE-059",
+      "name": "Joseph James DeAngelo",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Firearm",
+      "victims": 13,
+      "pagerank": 0.6694,
+      "community": 0,
+      "degree": 14
+    },
+    {
+      "id": "CASE-068",
+      "name": "Nikolay Shubin",
+      "country": "Russia",
+      "region": "Europe",
+      "decade": 2000,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.7,
+      "community": 2,
+      "degree": 16
+    },
+    {
+      "id": "CASE-061",
+      "name": "Boston Strangler",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1960,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 13,
+      "pagerank": 0.1671,
+      "community": 0,
+      "degree": 2
+    },
+    {
+      "id": "CASE-341",
+      "name": "Beverley Allitt",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "decade": 1990,
+      "method": "Poisoning / Medical",
+      "victims": 13,
+      "pagerank": 0.5626,
+      "community": 5,
+      "degree": 12
+    },
+    {
+      "id": "CASE-062",
+      "name": "Herbert Mullin",
+      "country": "United States",
+      "region": "North America",
+      "decade": 1970,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.5863,
+      "community": 0,
+      "degree": 13
+    },
+    {
+      "id": "CASE-063",
+      "name": "Vladimir Storozhenko",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1970,
+      "method": "Strangulation / Asphyxiation",
+      "victims": 13,
+      "pagerank": 0.331,
+      "community": 12,
+      "degree": 5
+    },
+    {
+      "id": "CASE-064",
+      "name": "Johannes Mashiane",
+      "country": "South Africa",
+      "region": "Africa",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.5842,
+      "community": 10,
+      "degree": 13
+    },
+    {
+      "id": "CASE-065",
+      "name": "Vasiliy Kulik",
+      "country": "Russia (Soviet Union)",
+      "region": "Europe",
+      "decade": 1980,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 13,
+      "pagerank": 0.8161,
+      "community": 2,
+      "degree": 19
+    },
+    {
+      "id": "CASE-079",
+      "name": "Abdallah al-Hubal",
+      "country": "Yemen",
+      "region": "Global / Unassigned",
+      "decade": 1990,
+      "method": "Firearm",
+      "victims": 13,
+      "pagerank": 0.4853,
+      "community": 9,
+      "degree": 8
+    },
+    {
+      "id": "CASE-058",
+      "name": "Francisco Antonio Laureana",
+      "country": "Argentina",
+      "region": "South America",
+      "decade": 1970,
+      "method": "Firearm",
+      "victims": 13,
+      "pagerank": 0.3449,
+      "community": 9,
+      "degree": 5
+    },
+    {
+      "id": "CASE-359",
+      "name": "John Justin Bunting, Robert Joe Wagner and James Spyridon Vlassakis",
+      "country": "Australia",
+      "region": "Oceania",
+      "decade": 1990,
+      "method": "Mixed / Forensic Unspecified",
+      "victims": 12,
+      "pagerank": 0.4342,
+      "community": 8,
+      "degree": 9
+    },
+    {
+      "id": "CASE-305",
+      "name": "Jane Toppan",
+      "country": "U.S.",
+      "region": "Global / Unassigned",
+      "decade": 1900,
+      "method": "Poisoning / Medical",
+      "victims": 12,
+      "pagerank": 0.2523,
+      "community": 6,
+      "degree": 3
+    },
+    {
+      "id": "CASE-401",
+      "name": "Orlando Sabino",
+      "country": "Brazil",
+      "region": "South America",
+      "decade": 1980,
+      "method": "Stabbing / Sharp Instrument",
+      "victims": 12,
+      "pagerank": 0.2354,
+      "community": 0,
+      "degree": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "CASE-300",
+      "target": "CASE-301",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-013",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-304",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-022",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-027",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-314",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-307",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-309",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-311",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-310",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-205",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-355",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-341",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-300",
+      "target": "CASE-063",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-454",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-173",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-020",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-350",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-036",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-042",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-041",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-043",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-070",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-459",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-001",
+      "target": "CASE-359",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-345",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-009",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-173",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-014",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-302",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-021",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-025",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-028",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-350",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-049",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-040",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-110",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-053",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-069",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-064",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-002",
+      "target": "CASE-065",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-454",
+      "target": "CASE-019",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-454",
+      "target": "CASE-035",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-454",
+      "target": "CASE-041",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-454",
+      "target": "CASE-043",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-455",
+      "target": "CASE-456",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-455",
+      "target": "CASE-018",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-455",
+      "target": "CASE-044",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-455",
+      "target": "CASE-067",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-455",
+      "target": "CASE-070",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-173",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-350",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-049",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-040",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-110",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-345",
+      "target": "CASE-053",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-303",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-314",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-307",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-309",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-311",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-310",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-355",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-046",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-320",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-045",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-068",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-301",
+      "target": "CASE-341",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-017",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-026",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-029",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-311",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-492",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-355",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-042",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-003",
+      "target": "CASE-341",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-010",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-304",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-027",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-025",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-205",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-032",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-354",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-039",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-055",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-052",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-215",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-059",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-400",
+      "target": "CASE-062",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-004",
+      "target": "CASE-022",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-004",
+      "target": "CASE-215",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-004",
+      "target": "CASE-063",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-004",
+      "target": "CASE-058",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-006",
+      "target": "CASE-457",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-019",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-028",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-012",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-048",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-047",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-007",
+      "target": "CASE-070",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-008",
+      "target": "CASE-012",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-008",
+      "target": "CASE-048",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-008",
+      "target": "CASE-047",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-009",
+      "target": "CASE-302",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-009",
+      "target": "CASE-018",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-009",
+      "target": "CASE-357",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-009",
+      "target": "CASE-040",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-009",
+      "target": "CASE-110",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-020",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-350",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-049",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-040",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-042",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-041",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-043",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-110",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-070",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-459",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-053",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-079",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-173",
+      "target": "CASE-359",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-304",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-027",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-025",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-205",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-032",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-354",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-039",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-055",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-052",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-215",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-059",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-010",
+      "target": "CASE-062",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-021",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-025",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-028",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-031",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-309",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-310",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-492",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-035",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-040",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-046",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-042",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-045",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-110",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-066",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-069",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-068",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-064",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-014",
+      "target": "CASE-065",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-017",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-022",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-034",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-059",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-063",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-013",
+      "target": "CASE-058",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-303",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-023",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-306",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-309",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-310",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-040",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-110",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-302",
+      "target": "CASE-305",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-015",
+      "target": "CASE-353",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-015",
+      "target": "CASE-036",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-015",
+      "target": "CASE-058",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-015",
+      "target": "CASE-401",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-456",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-026",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-311",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-355",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-036",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-034",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-042",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-044",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-067",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-341",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-017",
+      "target": "CASE-079",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-456",
+      "target": "CASE-036",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-456",
+      "target": "CASE-044",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-456",
+      "target": "CASE-067",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-456",
+      "target": "CASE-070",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-456",
+      "target": "CASE-079",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-303",
+      "target": "CASE-314",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-303",
+      "target": "CASE-307",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-303",
+      "target": "CASE-320",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-303",
+      "target": "CASE-053",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-303",
+      "target": "CASE-305",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-018",
+      "target": "CASE-028",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-018",
+      "target": "CASE-457",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-028",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-012",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-035",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-048",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-047",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-019",
+      "target": "CASE-070",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-030",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-350",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-042",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-041",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-043",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-070",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-459",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-458",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-069",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-064",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-020",
+      "target": "CASE-359",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-027",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-306",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-205",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-032",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-354",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-483",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-320",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-039",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-055",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-215",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-059",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-304",
+      "target": "CASE-062",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-025",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-028",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-031",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-309",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-310",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-492",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-035",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-040",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-046",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-042",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-045",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-110",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-066",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-069",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-068",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-064",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-021",
+      "target": "CASE-065",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-023",
+      "target": "CASE-306",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-023",
+      "target": "CASE-309",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-023",
+      "target": "CASE-310",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-023",
+      "target": "CASE-069",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-023",
+      "target": "CASE-064",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-022",
+      "target": "CASE-215",
+      "weight": 0.8,
+      "reasons": [
+        "Shared Method & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-022",
+      "target": "CASE-063",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-426",
+      "target": "CASE-080",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-426",
+      "target": "CASE-354",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-027",
+      "target": "CASE-306",
+      "weight": 1.0,
+      "reasons": [
+        "Shared Method & Macro-Region"
+      ]
+    },
+    {
+      "source": "CASE-027",
+      "target": "CASE-205",
+      "weight": 2.3,
+      "reasons": [
+        "Shared Method & Macro-Region",
+        "Shared Method & Active Decade",
+        "Shared Region & Active Decade"
+      ]
+    },
+    {
+      "source": "CASE-027",
+      "target": "CASE-032",
+      "weight": 0.5,
+      "reasons": [
+        "Shared Region & Active Decade"
+      ]
+    }
+  ]
+}
