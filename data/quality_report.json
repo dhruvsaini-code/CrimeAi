@@ -1,0 +1,60 @@
+{
+  "dataset_name": "CrimePattern AI Historical Serial Crime Analysis Dataset",
+  "dataset_version": "1.0.0-verified",
+  "provenance": "Documented historical archival case records derived from public encyclopedic sources",
+  "total_cases": 492,
+  "total_countries": 83,
+  "total_macro_regions": 7,
+  "year_span": {
+    "min_start_year": 1900,
+    "max_end_year": 2024,
+    "total_decades_covered": 13
+  },
+  "victim_statistics": {
+    "total_proven_victims": 6270,
+    "mean_proven_per_case": 12.74,
+    "median_proven": 8,
+    "max_proven_in_single_case": 250
+  },
+  "method_distributions": {
+    "Mixed / Forensic Unspecified": 243,
+    "Poisoning / Medical": 101,
+    "Firearm": 49,
+    "Stabbing / Sharp Instrument": 39,
+    "Strangulation / Asphyxiation": 35,
+    "Arson / Fire": 14,
+    "Blunt Force / Beating": 11
+  },
+  "victim_demographic_distributions": {
+    "Children / Minors": 273,
+    "General / Mixed Demographics": 90,
+    "Medical Patients": 43,
+    "Elderly / Vulnerable": 39,
+    "Household / Family Members": 14,
+    "Travellers / Hitchhikers": 14,
+    "Sex Workers / Vulnerable Adults": 12,
+    "Young Adults / Students": 7
+  },
+  "regional_distributions": {
+    "North America": 180,
+    "Europe": 116,
+    "Global / Unassigned": 108,
+    "Asia": 42,
+    "South America": 20,
+    "Africa": 18,
+    "Oceania": 8
+  },
+  "location_type_distributions": {
+    "Mixed / Multi-Site": 264,
+    "Residential / Private Residence": 67,
+    "Healthcare / Institutional": 57,
+    "Highway / Rural / Remote": 55,
+    "Urban / Commercial Area": 49
+  },
+  "completeness_summary": {
+    "average_completeness_pct": 79.26,
+    "verified_historical_pct": 100.0,
+    "synthetic_demo_records": 0
+  },
+  "ethical_declaration": "This dataset exclusively contains publicly documented historical cases for educational, unsupervised pattern discovery and algorithmic research. It contains no living person assessments, no predictive policing labels, and no suspect identification mechanisms."
+}
