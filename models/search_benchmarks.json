@@ -1,0 +1,142 @@
+[
+  {
+    "query": "Poisoning medical patients in European hospital wards",
+    "methods": {
+      "tfidf": {
+        "response_time_ms": 5.092,
+        "top_match": "Ann Arbor Hospital Killer",
+        "top_score": 0.3839,
+        "top_region": "Global / Unassigned"
+      },
+      "bm25": {
+        "response_time_ms": 4.559,
+        "top_match": "Ann Arbor Hospital Killer",
+        "top_score": 1.0,
+        "top_region": "Global / Unassigned"
+      },
+      "semantic": {
+        "response_time_ms": 4.431,
+        "top_match": "Ann Arbor Hospital Killer",
+        "top_score": 0.7822,
+        "top_region": "Global / Unassigned"
+      },
+      "knn": {
+        "response_time_ms": 5.124,
+        "top_match": "Ann Arbor Hospital Killer",
+        "top_score": 0.7822,
+        "top_region": "Global / Unassigned"
+      },
+      "hybrid": {
+        "response_time_ms": 4.381,
+        "top_match": "Ann Arbor Hospital Killer",
+        "top_score": 0.7081,
+        "top_region": "Global / Unassigned"
+      }
+    }
+  },
+  {
+    "query": "Highway transit strangulation targeting young travellers",
+    "methods": {
+      "tfidf": {
+        "response_time_ms": 3.676,
+        "top_match": "\"Highway of Tears\" Killer",
+        "top_score": 0.1956,
+        "top_region": "North America"
+      },
+      "bm25": {
+        "response_time_ms": 3.68,
+        "top_match": "\u00c9mile Louis",
+        "top_score": 1.0,
+        "top_region": "Global / Unassigned"
+      },
+      "semantic": {
+        "response_time_ms": 3.629,
+        "top_match": "\"Highway of Tears\" Killer",
+        "top_score": 0.6893,
+        "top_region": "North America"
+      },
+      "knn": {
+        "response_time_ms": 4.317,
+        "top_match": "\"Highway of Tears\" Killer",
+        "top_score": 0.6893,
+        "top_region": "North America"
+      },
+      "hybrid": {
+        "response_time_ms": 3.665,
+        "top_match": "\"Highway of Tears\" Killer",
+        "top_score": 0.5619,
+        "top_region": "North America"
+      }
+    }
+  },
+  {
+    "query": "Firearm crimes involving household family members in South America",
+    "methods": {
+      "tfidf": {
+        "response_time_ms": 6.076,
+        "top_match": "Chijon family",
+        "top_score": 0.3312,
+        "top_region": "Global / Unassigned"
+      },
+      "bm25": {
+        "response_time_ms": 6.123,
+        "top_match": "Herb Baumeister",
+        "top_score": 1.0,
+        "top_region": "North America"
+      },
+      "semantic": {
+        "response_time_ms": 7.047,
+        "top_match": "Milka Pavlovi\u0107",
+        "top_score": 0.7151,
+        "top_region": "Global / Unassigned"
+      },
+      "knn": {
+        "response_time_ms": 8.918,
+        "top_match": "Milka Pavlovi\u0107",
+        "top_score": 0.7151,
+        "top_region": "Global / Unassigned"
+      },
+      "hybrid": {
+        "response_time_ms": 6.295,
+        "top_match": "Chijon family",
+        "top_score": 0.6553,
+        "top_region": "Global / Unassigned"
+      }
+    }
+  },
+  {
+    "query": "Urban residential burglary blunt force trauma in 1980s",
+    "methods": {
+      "tfidf": {
+        "response_time_ms": 4.419,
+        "top_match": "Romulus Vere\u015f",
+        "top_score": 0.2934,
+        "top_region": "Europe"
+      },
+      "bm25": {
+        "response_time_ms": 4.422,
+        "top_match": "Romulus Vere\u015f",
+        "top_score": 1.0,
+        "top_region": "Europe"
+      },
+      "semantic": {
+        "response_time_ms": 4.394,
+        "top_match": "Romulus Vere\u015f",
+        "top_score": 0.8287,
+        "top_region": "Europe"
+      },
+      "knn": {
+        "response_time_ms": 4.992,
+        "top_match": "Romulus Vere\u015f",
+        "top_score": 0.8287,
+        "top_region": "Europe"
+      },
+      "hybrid": {
+        "response_time_ms": 4.368,
+        "top_match": "Romulus Vere\u015f",
+        "top_score": 0.6927,
+        "top_region": "Europe"
+      }
+    }
+  }
+]
