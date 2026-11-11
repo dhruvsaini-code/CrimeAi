@@ -1,0 +1,15 @@
+{
+  "name": "crimepattern-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CrimePattern AI — Historical Serial Crime Analysis and Pattern Discovery System (Educational & Research Tool)",
+  "scripts": {
+    "generate-data": "python3 scripts/generate_dataset.py",
+    "train": "python3 scripts/train_models.py",
+    "backend": "uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload",
+    "frontend": "NODE_OPTIONS='--no-use-system-ca' npm --prefix frontend run dev",
+    "build": "NODE_OPTIONS='--no-use-system-ca' npm --prefix frontend run build",
+    "test:backend": "python3 scripts/run_tests.py",
+    "test:frontend": "NODE_OPTIONS='--no-use-system-ca' npm --prefix frontend run test"
+  }
+}
