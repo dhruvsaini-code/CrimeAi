@@ -205,6 +205,9 @@ export const api = {
       const cases = historicalCases as CaseItem[];
       const regionCounts: Record<string, number> = {};
       const countryMap: Record<string, { count: number; victims: number; region: string }> = {};
+      const methodMap: Record<string, { count: number; victims: number }> = {};
+      const demographicMap: Record<string, { count: number; victims: number }> = {};
+      const regVulnerability: Record<string, any> = {};
 
       cases.forEach((c) => {
         regionCounts[c.macro_region] = (regionCounts[c.macro_region] || 0) + 1;
@@ -213,15 +216,53 @@ export const api = {
         }
         countryMap[c.country].count++;
         countryMap[c.country].victims += c.victims_proven || 0;
+
+        // Methods
+        if (!methodMap[c.method_category]) methodMap[c.method_category] = { count: 0, victims: 0 };
+        methodMap[c.method_category].count++;
+        methodMap[c.method_category].victims += c.victims_proven || 0;
+
+        // Demographics
+        if (!demographicMap[c.victim_demographic]) demographicMap[c.victim_demographic] = { count: 0, victims: 0 };
+        demographicMap[c.victim_demographic].count++;
+        demographicMap[c.victim_demographic].victims += c.victims_proven || 0;
       });
 
       const topCountries = Object.entries(countryMap)
         .map(([k, v]) => ({ country: k, macro_region: v.region, case_count: v.count, total_victims: v.victims }))
         .sort((a, b) => b.case_count - a.case_count);
 
+      const methodHotspots = Object.entries(methodMap)
+        .map(([k, v]) => ({ method_category: k, case_count: v.count, total_victims: v.victims }))
+        .sort((a, b) => b.total_victims - a.total_victims);
+
+      const demographicHotspots = Object.entries(demographicMap)
+        .map(([k, v]) => ({ victim_demographic: k, case_count: v.count, total_victims: v.victims }))
+        .sort((a, b) => b.total_victims - a.total_victims);
+
+      // Group regional summaries
+      Object.keys(regionCounts).forEach((reg) => {
+        const sub = cases.filter((c) => c.macro_region === reg);
+        const totVic = sub.reduce((acc, c) => acc + (c.victims_proven || 0), 0);
+        const specM = sub.filter((c) => !c.method_category.includes('Mixed'));
+        const domMethod = specM.length > 0 ? specM[0].method_category : 'Forensic Unspecified';
+        const specV = sub.filter((c) => !c.victim_demographic.includes('General'));
+        const domVictim = specV.length > 0 ? specV[0].victim_demographic : 'Demographic General';
+
+        regVulnerability[reg] = {
+          total_cases: sub.length,
+          total_victims: totVic,
+          dominant_method: domMethod,
+          most_targeted_demographic: domVictim,
+        };
+      });
+
       return {
         region_counts: regionCounts,
         top_countries: topCountries,
+        method_hotspots: methodHotspots,
+        demographic_hotspots: demographicHotspots,
+        regional_vulnerability: regVulnerability,
         total_mapped_cases: cases.length,
         markers: cases.map((c) => ({
           case_id: c.case_id,
@@ -232,6 +273,8 @@ export const api = {
           longitude: c.longitude,
           victims_proven: c.victims_proven,
           method_category: c.method_category,
+          victim_demographic: c.victim_demographic,
+          location_type: c.location_type,
           active_decade: c.active_decade,
         })),
       };

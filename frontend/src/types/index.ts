@@ -264,3 +264,33 @@ export interface AnalyzeCaseResult {
   ethical_disclaimer: string;
 }
 
+
+export interface GeoSummary {
+  region_counts: Record<string, number>;
+  top_countries: Array<{ country: string; macro_region: string; case_count: number; total_victims: number }>;
+  method_hotspots?: Array<{ method_category: string; case_count: number; total_victims: number }>;
+  demographic_hotspots?: Array<{ victim_demographic: string; case_count: number; total_victims: number }>;
+  regional_vulnerability?: Record<
+    string,
+    {
+      total_cases: number;
+      total_victims: number;
+      dominant_method: string;
+      most_targeted_demographic: string;
+    }
+  >;
+  total_mapped_cases: number;
+  markers: Array<{
+    case_id: string;
+    case_name: string;
+    country: string;
+    macro_region: string;
+    latitude: number;
+    longitude: number;
+    victims_proven: number;
+    method_category: string;
+    victim_demographic?: string;
+    location_type?: string;
+    active_decade: number;
+  }>;
+}
