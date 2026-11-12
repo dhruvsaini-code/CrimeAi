@@ -13,17 +13,34 @@ export const GraphPage: React.FC<GraphPageProps> = ({ onSelectCaseDetail }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let isMounted = true;
     api
       .getGraphNetwork()
-      .then((res) => setGraphData(res))
+      .then((res) => {
+        if (isMounted && res) setGraphData(res);
+      })
       .catch((e) => console.error(e))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
-  if (loading || !graphData) {
+  if (loading && !graphData) {
+    return (
+      <div className="py-20 text-center font-mono text-crime-muted text-sm flex flex-col items-center justify-center gap-3">
+        <div className="w-8 h-8 border-2 border-crime-purple border-t-transparent rounded-full animate-spin" />
+        <div>Computing forensic relationship topology, PageRank, and Louvain modularity communities...</div>
+      </div>
+    );
+  }
+
+  if (!graphData) {
     return (
       <div className="py-20 text-center font-mono text-crime-muted text-sm">
-        Computing forensic relationship topology, PageRank, and Louvain modularity communities...
+        Unable to load graph intelligence network.
       </div>
     );
   }

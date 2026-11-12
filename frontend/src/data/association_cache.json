@@ -1,0 +1,705 @@
+{
+  "total_rules_mined": 40,
+  "total_transactions": 492,
+  "min_support": 0.06,
+  "min_confidence": 0.35,
+  "min_lift": 1.1,
+  "rules": [
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s",
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1199,
+      "confidence": 0.5463,
+      "lift": 2.116,
+      "rule_text": "IF Region=Global / Unassigned THEN Decade=1980s AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Duration=Moderate (4-10y)"
+      ],
+      "consequent": [
+        "Region=Global / Unassigned"
+      ],
+      "support": 0.1199,
+      "confidence": 0.4646,
+      "lift": 2.116,
+      "rule_text": "IF Decade=1980s AND Duration=Moderate (4-10y) THEN Region=Global / Unassigned"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.1199,
+      "confidence": 0.7468,
+      "lift": 2.1,
+      "rule_text": "IF Region=Global / Unassigned AND Duration=Moderate (4-10y) THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s"
+      ],
+      "consequent": [
+        "Duration=Long (>10y)"
+      ],
+      "support": 0.0691,
+      "confidence": 0.4595,
+      "lift": 2.074,
+      "rule_text": "IF Decade=1970s THEN Duration=Long (>10y)"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s",
+        "Scale=Low (1-9)"
+      ],
+      "support": 0.1138,
+      "confidence": 0.5185,
+      "lift": 1.904,
+      "rule_text": "IF Region=Global / Unassigned THEN Decade=1980s AND Scale=Low (1-9)"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Region=Global / Unassigned"
+      ],
+      "support": 0.1138,
+      "confidence": 0.4179,
+      "lift": 1.904,
+      "rule_text": "IF Decade=1980s AND Scale=Low (1-9) THEN Region=Global / Unassigned"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s"
+      ],
+      "consequent": [
+        "Region=North America",
+        "Victim=Children / Minors"
+      ],
+      "support": 0.065,
+      "confidence": 0.4324,
+      "lift": 1.9,
+      "rule_text": "IF Decade=1970s THEN Victim=Children / Minors AND Region=North America"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1199,
+      "confidence": 0.9672,
+      "lift": 1.837,
+      "rule_text": "IF Decade=1980s AND Region=Global / Unassigned THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.1138,
+      "confidence": 0.6437,
+      "lift": 1.81,
+      "rule_text": "IF Scale=Low (1-9) AND Region=Global / Unassigned THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Scale=Low (1-9)"
+      ],
+      "support": 0.1382,
+      "confidence": 0.6296,
+      "lift": 1.711,
+      "rule_text": "IF Region=Global / Unassigned THEN Scale=Low (1-9) AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Region=Global / Unassigned"
+      ],
+      "support": 0.1382,
+      "confidence": 0.3757,
+      "lift": 1.711,
+      "rule_text": "IF Scale=Low (1-9) AND Duration=Moderate (4-10y) THEN Region=Global / Unassigned"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Method=Mixed / Forensic Unspecified"
+      ],
+      "consequent": [
+        "Region=Global / Unassigned"
+      ],
+      "support": 0.0671,
+      "confidence": 0.3667,
+      "lift": 1.67,
+      "rule_text": "IF Decade=1980s AND Method=Mixed / Forensic Unspecified THEN Region=Global / Unassigned"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Scale=Low (1-9)"
+      ],
+      "support": 0.2154,
+      "confidence": 0.6057,
+      "lift": 1.646,
+      "rule_text": "IF Decade=1980s THEN Scale=Low (1-9) AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.2154,
+      "confidence": 0.5856,
+      "lift": 1.646,
+      "rule_text": "IF Scale=Low (1-9) AND Duration=Moderate (4-10y) THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Method=Mixed / Forensic Unspecified",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.0671,
+      "confidence": 0.569,
+      "lift": 1.6,
+      "rule_text": "IF Method=Mixed / Forensic Unspecified AND Region=Global / Unassigned THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.124,
+      "confidence": 0.5648,
+      "lift": 1.588,
+      "rule_text": "IF Region=Global / Unassigned THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Victim=Children / Minors"
+      ],
+      "support": 0.0711,
+      "confidence": 0.875,
+      "lift": 1.577,
+      "rule_text": "IF Scale=Low (1-9) AND Decade=1970s THEN Victim=Children / Minors"
+    },
+    {
+      "antecedent": [
+        "Location=Mixed / Multi-Site",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.0671,
+      "confidence": 0.55,
+      "lift": 1.546,
+      "rule_text": "IF Location=Mixed / Multi-Site AND Region=Global / Unassigned THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Duration=Brief (1-3y)",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Region=North America"
+      ],
+      "support": 0.0793,
+      "confidence": 0.5652,
+      "lift": 1.545,
+      "rule_text": "IF Scale=Low (1-9) AND Duration=Brief (1-3y) THEN Region=North America"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s"
+      ],
+      "consequent": [
+        "Region=North America"
+      ],
+      "support": 0.0833,
+      "confidence": 0.5541,
+      "lift": 1.514,
+      "rule_text": "IF Decade=1970s THEN Region=North America"
+    },
+    {
+      "antecedent": [
+        "Duration=Long (>10y)",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Region=North America"
+      ],
+      "support": 0.0772,
+      "confidence": 0.5507,
+      "lift": 1.505,
+      "rule_text": "IF Duration=Long (>10y) AND Scale=Low (1-9) THEN Region=North America"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.2154,
+      "confidence": 0.791,
+      "lift": 1.503,
+      "rule_text": "IF Decade=1980s AND Scale=Low (1-9) THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "consequent": [
+        "Decade=1980s",
+        "Scale=Low (1-9)"
+      ],
+      "support": 0.2154,
+      "confidence": 0.4093,
+      "lift": 1.503,
+      "rule_text": "IF Duration=Moderate (4-10y) THEN Decade=1980s AND Scale=Low (1-9)"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned",
+        "Scale=Low (1-9)"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1382,
+      "confidence": 0.7816,
+      "lift": 1.485,
+      "rule_text": "IF Scale=Low (1-9) AND Region=Global / Unassigned THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)",
+        "Location=Mixed / Multi-Site"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.1484,
+      "confidence": 0.5252,
+      "lift": 1.477,
+      "rule_text": "IF Location=Mixed / Multi-Site AND Duration=Moderate (4-10y) THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Location=Mixed / Multi-Site"
+      ],
+      "support": 0.1484,
+      "confidence": 0.4171,
+      "lift": 1.477,
+      "rule_text": "IF Decade=1980s THEN Location=Mixed / Multi-Site AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s",
+        "Location=Mixed / Multi-Site"
+      ],
+      "consequent": [
+        "Victim=Children / Minors"
+      ],
+      "support": 0.063,
+      "confidence": 0.8158,
+      "lift": 1.47,
+      "rule_text": "IF Location=Mixed / Multi-Site AND Decade=1970s THEN Victim=Children / Minors"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s"
+      ],
+      "consequent": [
+        "Victim=Children / Minors"
+      ],
+      "support": 0.122,
+      "confidence": 0.8108,
+      "lift": 1.461,
+      "rule_text": "IF Decade=1970s THEN Victim=Children / Minors"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s",
+        "Victim=Children / Minors"
+      ],
+      "consequent": [
+        "Region=North America"
+      ],
+      "support": 0.065,
+      "confidence": 0.5333,
+      "lift": 1.458,
+      "rule_text": "IF Victim=Children / Minors AND Decade=1970s THEN Region=North America"
+    },
+    {
+      "antecedent": [
+        "Duration=Moderate (4-10y)",
+        "Region=North America"
+      ],
+      "consequent": [
+        "Decade=1980s"
+      ],
+      "support": 0.0732,
+      "confidence": 0.5143,
+      "lift": 1.446,
+      "rule_text": "IF Duration=Moderate (4-10y) AND Region=North America THEN Decade=1980s"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Location=Mixed / Multi-Site"
+      ],
+      "support": 0.0894,
+      "confidence": 0.4074,
+      "lift": 1.442,
+      "rule_text": "IF Region=Global / Unassigned THEN Location=Mixed / Multi-Site AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1990s"
+      ],
+      "consequent": [
+        "Scale=Medium (10-29)"
+      ],
+      "support": 0.063,
+      "confidence": 0.3924,
+      "lift": 1.441,
+      "rule_text": "IF Decade=1990s THEN Scale=Medium (10-29)"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Scale=Low (1-9)"
+      ],
+      "support": 0.1138,
+      "confidence": 0.918,
+      "lift": 1.416,
+      "rule_text": "IF Decade=1980s AND Region=Global / Unassigned THEN Scale=Low (1-9)"
+    },
+    {
+      "antecedent": [
+        "Victim=General / Mixed Demographics"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Location=Mixed / Multi-Site"
+      ],
+      "support": 0.0732,
+      "confidence": 0.4,
+      "lift": 1.416,
+      "rule_text": "IF Victim=General / Mixed Demographics THEN Location=Mixed / Multi-Site AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Method=Mixed / Forensic Unspecified"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1362,
+      "confidence": 0.7444,
+      "lift": 1.414,
+      "rule_text": "IF Decade=1980s AND Method=Mixed / Forensic Unspecified THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1970s",
+        "Region=North America"
+      ],
+      "consequent": [
+        "Victim=Children / Minors"
+      ],
+      "support": 0.065,
+      "confidence": 0.7805,
+      "lift": 1.407,
+      "rule_text": "IF Decade=1970s AND Region=North America THEN Victim=Children / Minors"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)",
+        "Method=Mixed / Forensic Unspecified"
+      ],
+      "support": 0.0854,
+      "confidence": 0.3889,
+      "lift": 1.407,
+      "rule_text": "IF Region=Global / Unassigned THEN Method=Mixed / Forensic Unspecified AND Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Location=Mixed / Multi-Site",
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.0894,
+      "confidence": 0.7333,
+      "lift": 1.393,
+      "rule_text": "IF Location=Mixed / Multi-Site AND Region=Global / Unassigned THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Region=Global / Unassigned"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1606,
+      "confidence": 0.7315,
+      "lift": 1.39,
+      "rule_text": "IF Region=Global / Unassigned THEN Duration=Moderate (4-10y)"
+    },
+    {
+      "antecedent": [
+        "Decade=1980s",
+        "Location=Mixed / Multi-Site"
+      ],
+      "consequent": [
+        "Duration=Moderate (4-10y)"
+      ],
+      "support": 0.1484,
+      "confidence": 0.73,
+      "lift": 1.387,
+      "rule_text": "IF Decade=1980s AND Location=Mixed / Multi-Site THEN Duration=Moderate (4-10y)"
+    }
+  ],
+  "sequential_patterns": [
+    {
+      "transition": "1900s -> 1910s",
+      "from_decade": "1900s",
+      "to_decade": "1910s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Arson / Fire",
+      "transition_support": 0.096,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1900s -> 1910s",
+      "from_decade": "1900s",
+      "to_decade": "1910s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.096,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1900s -> 1910s",
+      "from_decade": "1900s",
+      "to_decade": "1910s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Arson / Fire",
+      "transition_support": 0.077,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1900s -> 1910s",
+      "from_decade": "1900s",
+      "to_decade": "1910s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.077,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1910s -> 1920s",
+      "from_decade": "1910s",
+      "to_decade": "1920s",
+      "from_pattern": "Arson / Fire",
+      "to_pattern": "Poisoning / Medical",
+      "transition_support": 0.1,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1910s -> 1920s",
+      "from_decade": "1910s",
+      "to_decade": "1920s",
+      "from_pattern": "Arson / Fire",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.1,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1910s -> 1920s",
+      "from_decade": "1910s",
+      "to_decade": "1920s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Poisoning / Medical",
+      "transition_support": 0.1,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1910s -> 1920s",
+      "from_decade": "1910s",
+      "to_decade": "1920s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.1,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1920s -> 1930s",
+      "from_decade": "1920s",
+      "to_decade": "1930s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.154,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1920s -> 1930s",
+      "from_decade": "1920s",
+      "to_decade": "1930s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Poisoning / Medical",
+      "transition_support": 0.154,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1920s -> 1930s",
+      "from_decade": "1920s",
+      "to_decade": "1930s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.154,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1920s -> 1930s",
+      "from_decade": "1920s",
+      "to_decade": "1930s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Poisoning / Medical",
+      "transition_support": 0.154,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1930s -> 1940s",
+      "from_decade": "1930s",
+      "to_decade": "1940s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.128,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1930s -> 1940s",
+      "from_decade": "1930s",
+      "to_decade": "1940s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Firearm",
+      "transition_support": 0.085,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1930s -> 1940s",
+      "from_decade": "1930s",
+      "to_decade": "1940s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.128,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1930s -> 1940s",
+      "from_decade": "1930s",
+      "to_decade": "1940s",
+      "from_pattern": "Poisoning / Medical",
+      "to_pattern": "Firearm",
+      "transition_support": 0.085,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1940s -> 1950s",
+      "from_decade": "1940s",
+      "to_decade": "1950s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.238,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1940s -> 1950s",
+      "from_decade": "1940s",
+      "to_decade": "1950s",
+      "from_pattern": "Firearm",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.159,
+      "significance": "Historical Modality Shift"
+    },
+    {
+      "transition": "1950s -> 1960s",
+      "from_decade": "1950s",
+      "to_decade": "1960s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Mixed / Forensic Unspecified",
+      "transition_support": 0.32,
+      "significance": "Persistent Dominant Modality"
+    },
+    {
+      "transition": "1950s -> 1960s",
+      "from_decade": "1950s",
+      "to_decade": "1960s",
+      "from_pattern": "Mixed / Forensic Unspecified",
+      "to_pattern": "Poisoning / Medical",
+      "transition_support": 0.148,
+      "significance": "Historical Modality Shift"
+    }
+  ]
+}

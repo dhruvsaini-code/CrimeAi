@@ -21,17 +21,34 @@ export const ClusteringPage: React.FC<ClusteringPageProps> = ({ onSelectCaseDeta
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let isMounted = true;
     api
       .getClusteringResults()
-      .then((res) => setData(res))
+      .then((res) => {
+        if (isMounted && res) setData(res);
+      })
       .catch((e) => console.error(e))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
-  if (loading || !data) {
+  if (loading && !data) {
+    return (
+      <div className="py-20 text-center font-mono text-crime-muted text-sm flex flex-col items-center justify-center gap-3">
+        <div className="w-8 h-8 border-2 border-crime-tape border-t-transparent rounded-full animate-spin" />
+        <div>Loading unsupervised clustering models and PCA coordinates...</div>
+      </div>
+    );
+  }
+
+  if (!data) {
     return (
       <div className="py-20 text-center font-mono text-crime-muted text-sm">
-        Loading unsupervised clustering models and PCA coordinates...
+        Unable to load clustering data. Please verify models are initialized.
       </div>
     );
   }

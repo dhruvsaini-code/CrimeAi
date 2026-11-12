@@ -9,17 +9,34 @@ export const PatternsPage: React.FC = () => {
   const [minLift, setMinLift] = useState<number>(1.2);
 
   useEffect(() => {
+    let isMounted = true;
     api
       .getAssociationRules()
-      .then((res) => setData(res))
+      .then((res) => {
+        if (isMounted && res) setData(res);
+      })
       .catch((e) => console.error(e))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
-  if (loading || !data) {
+  if (loading && !data) {
+    return (
+      <div className="py-20 text-center font-mono text-crime-muted text-sm flex flex-col items-center justify-center gap-3">
+        <div className="w-8 h-8 border-2 border-crime-tape border-t-transparent rounded-full animate-spin" />
+        <div>Mining multi-attribute association rules and sequential transitions (Apriori & PrefixSpan)...</div>
+      </div>
+    );
+  }
+
+  if (!data) {
     return (
       <div className="py-20 text-center font-mono text-crime-muted text-sm">
-        Mining multi-attribute association rules and sequential transitions (Apriori & PrefixSpan)...
+        Unable to load association pattern rules.
       </div>
     );
   }

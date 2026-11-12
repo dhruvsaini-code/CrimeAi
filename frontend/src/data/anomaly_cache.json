@@ -1,0 +1,992 @@
+{
+  "total_evaluated": 492,
+  "flagged_anomalies_count": 54,
+  "contamination_threshold": 0.06,
+  "isolation_forest_count": 30,
+  "lof_count": 30,
+  "flagged_cases": [
+    {
+      "case_id": "CASE-300",
+      "case_name": "Harold Shipman",
+      "country": "United Kingdom",
+      "macro_region": "Europe",
+      "active_start_year": 1975,
+      "duration_years": 24,
+      "victims_proven": 250,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.51,
+      "lof_score": 2.858,
+      "anomaly_reasons": [
+        "Extreme documented victim count (250 victims vs dataset average 12.7)",
+        "Unusually prolonged active duration (24 years vs average 7.7 years)",
+        "Healthcare professional involvement (statistically rare institutional setting)",
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-001",
+      "case_name": "Luis Garavito",
+      "country": "Colombia Ecuador Venezuela",
+      "macro_region": "South America",
+      "active_start_year": 1992,
+      "duration_years": 8,
+      "victims_proven": 193,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.45,
+      "lof_score": 2.113,
+      "anomaly_reasons": [
+        "Extreme documented victim count (193 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-002",
+      "case_name": "Mariam Soulakiotis",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 177,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.425,
+      "lof_score": 1.983,
+      "anomaly_reasons": [
+        "Extreme documented victim count (177 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-449",
+      "case_name": "Howard Martin",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1957,
+      "duration_years": 54,
+      "victims_proven": 8,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.532,
+      "lof_score": 1.599,
+      "anomaly_reasons": [
+        "Unusually prolonged active duration (54 years vs average 7.7 years)",
+        "Healthcare professional involvement (statistically rare institutional setting)"
+      ]
+    },
+    {
+      "case_id": "CASE-010",
+      "case_name": "Samuel Little",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1970,
+      "duration_years": 43,
+      "victims_proven": 60,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.477,
+      "lof_score": 1.592,
+      "anomaly_reasons": [
+        "Extreme documented victim count (60 victims vs dataset average 12.7)",
+        "Unusually prolonged active duration (43 years vs average 7.7 years)"
+      ]
+    },
+    {
+      "case_id": "CASE-345",
+      "case_name": "Abboud and Khajawa",
+      "country": "Ottoman Empire (present-day Iraq )",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1917,
+      "duration_years": 4,
+      "victims_proven": 100,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.462,
+      "lof_score": 1.522,
+      "anomaly_reasons": [
+        "Extreme documented victim count (100 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-386",
+      "case_name": "Ray and Faye Copeland",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1986,
+      "duration_years": 4,
+      "victims_proven": 5,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.467,
+      "lof_score": 1.406,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-174",
+      "case_name": "Diego Alex\u00e1nder Ruiz Restrepo",
+      "country": "Chile",
+      "macro_region": "South America",
+      "active_start_year": 2018,
+      "duration_years": 3,
+      "victims_proven": 7,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.459,
+      "lof_score": 1.402,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-015",
+      "case_name": "Florisvaldo de Oliveira",
+      "country": "Brazil",
+      "macro_region": "South America",
+      "active_start_year": 1982,
+      "duration_years": 2,
+      "victims_proven": 50,
+      "method_category": "Firearm",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.513,
+      "lof_score": 1.336,
+      "anomaly_reasons": [
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-173",
+      "case_name": "Ershad Sikder",
+      "country": "Bangladesh",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1991,
+      "duration_years": 9,
+      "victims_proven": 60,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.455,
+      "lof_score": 1.394,
+      "anomaly_reasons": [
+        "Extreme documented victim count (60 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-023",
+      "case_name": "Hadj Mohammed Mesfewi",
+      "country": "Morocco",
+      "macro_region": "Africa",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 36,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.527,
+      "lof_score": 1.32,
+      "anomaly_reasons": [
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-415",
+      "case_name": "Billy Chemirmir",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 2016,
+      "duration_years": 3,
+      "victims_proven": 2,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.456,
+      "lof_score": 1.384,
+      "anomaly_reasons": [
+        "Healthcare professional involvement (statistically rare institutional setting)"
+      ]
+    },
+    {
+      "case_id": "CASE-084",
+      "case_name": "Herb Baumeister",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1980,
+      "duration_years": 16,
+      "victims_proven": 11,
+      "method_category": "Firearm",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.494,
+      "lof_score": 1.341,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-019",
+      "case_name": "Raman Raghav",
+      "country": "India",
+      "macro_region": "Asia",
+      "active_start_year": 1965,
+      "duration_years": 4,
+      "victims_proven": 41,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.478,
+      "lof_score": 1.349,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-400",
+      "case_name": "\"Highway of Tears\" Killer",
+      "country": "Canada",
+      "macro_region": "North America",
+      "active_start_year": 1970,
+      "duration_years": 4,
+      "victims_proven": 80,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.524,
+      "lof_score": 1.302,
+      "anomaly_reasons": [
+        "Extreme documented victim count (80 victims vs dataset average 12.7)",
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-454",
+      "case_name": "Pedro L\u00f3pez",
+      "country": "Colombia",
+      "macro_region": "South America",
+      "active_start_year": 1969,
+      "duration_years": 12,
+      "victims_proven": 110,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.44,
+      "lof_score": 1.364,
+      "anomaly_reasons": [
+        "Extreme documented victim count (110 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-489",
+      "case_name": "Anatoly Sidorov",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1975,
+      "duration_years": 49,
+      "victims_proven": 8,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.419,
+      "lof_score": 1.383,
+      "anomaly_reasons": [
+        "Unusually prolonged active duration (49 years vs average 7.7 years)"
+      ]
+    },
+    {
+      "case_id": "CASE-396",
+      "case_name": "Michael Bear Carson and Suzan Carson",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1981,
+      "duration_years": 3,
+      "victims_proven": 3,
+      "method_category": "Arson / Fire",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.554,
+      "lof_score": 1.243,
+      "anomaly_reasons": [
+        "Pyrotechnic / arson method profile"
+      ]
+    },
+    {
+      "case_id": "CASE-205",
+      "case_name": "Walter E. Ellis",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1974,
+      "duration_years": 36,
+      "victims_proven": 18,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": true,
+      "iso_score": 0.51,
+      "lof_score": 1.279,
+      "anomaly_reasons": [
+        "Unusually prolonged active duration (36 years vs average 7.7 years)",
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-474",
+      "case_name": "Ivan Milat",
+      "country": "Australia",
+      "macro_region": "Oceania",
+      "active_start_year": 1989,
+      "duration_years": 4,
+      "victims_proven": 7,
+      "method_category": "Stabbing / Sharp Instrument",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.539,
+      "lof_score": 1.248,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-030",
+      "case_name": "Ramadan Abdel Rehim Mansour",
+      "country": "Egypt",
+      "macro_region": "Africa",
+      "active_start_year": 2004,
+      "duration_years": 3,
+      "victims_proven": 32,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.499,
+      "lof_score": 1.285,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-447",
+      "case_name": "David Parker Ray",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1957,
+      "duration_years": 43,
+      "victims_proven": 0,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.476,
+      "lof_score": 1.307,
+      "anomaly_reasons": [
+        "Unusually prolonged active duration (43 years vs average 7.7 years)"
+      ]
+    },
+    {
+      "case_id": "CASE-371",
+      "case_name": "The Manson Family cult killings",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1967,
+      "duration_years": 3,
+      "victims_proven": 8,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.503,
+      "lof_score": 1.265,
+      "anomaly_reasons": [
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-057",
+      "case_name": "Sleepy Hollow Killer",
+      "country": "South Africa",
+      "macro_region": "Africa",
+      "active_start_year": 2007,
+      "duration_years": 4,
+      "victims_proven": 13,
+      "method_category": "Strangulation / Asphyxiation",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.517,
+      "lof_score": 1.248,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-455",
+      "case_name": "Javed Iqbal",
+      "country": "Pakistan",
+      "macro_region": "Asia",
+      "active_start_year": 1999,
+      "duration_years": 1,
+      "victims_proven": 100,
+      "method_category": "Strangulation / Asphyxiation",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.452,
+      "lof_score": 1.312,
+      "anomaly_reasons": [
+        "Extreme documented victim count (100 victims vs dataset average 12.7)"
+      ]
+    },
+    {
+      "case_id": "CASE-085",
+      "case_name": "Zhang Yongming",
+      "country": "China",
+      "macro_region": "Asia",
+      "active_start_year": 1978,
+      "duration_years": 35,
+      "victims_proven": 12,
+      "method_category": "Firearm",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.474,
+      "lof_score": 1.286,
+      "anomaly_reasons": [
+        "Unusually prolonged active duration (35 years vs average 7.7 years)",
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-294",
+      "case_name": "Metod Trobec",
+      "country": "Slovenia",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1967,
+      "duration_years": 13,
+      "victims_proven": 5,
+      "method_category": "Strangulation / Asphyxiation",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.472,
+      "lof_score": 1.285,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-458",
+      "case_name": "Fosaville Serial Killer",
+      "country": "South Africa",
+      "macro_region": "Africa",
+      "active_start_year": 1999,
+      "duration_years": 5,
+      "victims_proven": 13,
+      "method_category": "Arson / Fire",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.526,
+      "lof_score": 1.229,
+      "anomaly_reasons": [
+        "Pyrotechnic / arson method profile"
+      ]
+    },
+    {
+      "case_id": "CASE-088",
+      "case_name": "Vaughn Greenwood",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1964,
+      "duration_years": 12,
+      "victims_proven": 11,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.445,
+      "lof_score": 1.31,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-304",
+      "case_name": "Donald Harvey",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1970,
+      "duration_years": 18,
+      "victims_proven": 37,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.501,
+      "lof_score": 1.253,
+      "anomaly_reasons": [
+        "Healthcare professional involvement (statistically rare institutional setting)",
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-302",
+      "case_name": "Baba Anujka",
+      "country": "Kingdom of Yugoslavia",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 50,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.434,
+      "lof_score": 1.313,
+      "anomaly_reasons": [
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-457",
+      "case_name": "Muthukutty Chandran",
+      "country": "India",
+      "macro_region": "Asia",
+      "active_start_year": 1985,
+      "duration_years": 2,
+      "victims_proven": 14,
+      "method_category": "Blunt Force / Beating",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.508,
+      "lof_score": 1.235,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-203",
+      "case_name": "Paul Steven Haigh",
+      "country": "Australia",
+      "macro_region": "Oceania",
+      "active_start_year": 1978,
+      "duration_years": 14,
+      "victims_proven": 7,
+      "method_category": "Firearm",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.45,
+      "lof_score": 1.29,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-125",
+      "case_name": "Kang Ho-sun",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 2005,
+      "duration_years": 4,
+      "victims_proven": 10,
+      "method_category": "Arson / Fire",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.522,
+      "lof_score": 1.217,
+      "anomaly_reasons": [
+        "Pyrotechnic / arson method profile"
+      ]
+    },
+    {
+      "case_id": "CASE-426",
+      "case_name": "Clementine Barnabet",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1911,
+      "duration_years": 1,
+      "victims_proven": 35,
+      "method_category": "Stabbing / Sharp Instrument",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.528,
+      "lof_score": 1.206,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-353",
+      "case_name": "Ripper Crew",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1981,
+      "duration_years": 2,
+      "victims_proven": 17,
+      "method_category": "Firearm",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.518,
+      "lof_score": 1.212,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-358",
+      "case_name": "Briley Brothers",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 8,
+      "method_category": "Firearm",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.527,
+      "lof_score": 1.203,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-388",
+      "case_name": "Gwendolyn Graham and Catherine May Wood",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1987,
+      "duration_years": 4,
+      "victims_proven": 5,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.531,
+      "lof_score": 1.195,
+      "anomaly_reasons": [
+        "Healthcare professional involvement (statistically rare institutional setting)"
+      ]
+    },
+    {
+      "case_id": "CASE-359",
+      "case_name": "John Justin Bunting, Robert Joe Wagner and James Spyridon Vlassakis",
+      "country": "Australia",
+      "macro_region": "Oceania",
+      "active_start_year": 1992,
+      "duration_years": 8,
+      "victims_proven": 12,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.504,
+      "lof_score": 1.221,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-124",
+      "case_name": "Zhou Kehua",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 2004,
+      "duration_years": 9,
+      "victims_proven": 8,
+      "method_category": "Firearm",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.506,
+      "lof_score": 1.212,
+      "anomaly_reasons": [
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-059",
+      "case_name": "Joseph James DeAngelo",
+      "country": "United States",
+      "macro_region": "North America",
+      "active_start_year": 1974,
+      "duration_years": 13,
+      "victims_proven": 13,
+      "method_category": "Firearm",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.427,
+      "lof_score": 1.289,
+      "anomaly_reasons": [
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-043",
+      "case_name": "Dor\u00e1ngel Vargas",
+      "country": "Venezuela",
+      "macro_region": "South America",
+      "active_start_year": 1995,
+      "duration_years": 22,
+      "victims_proven": 14,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.437,
+      "lof_score": 1.276,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-164",
+      "case_name": "Genzo Kurita",
+      "country": "Japan",
+      "macro_region": "Asia",
+      "active_start_year": 1948,
+      "duration_years": 5,
+      "victims_proven": 8,
+      "method_category": "Arson / Fire",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.428,
+      "lof_score": 1.285,
+      "anomaly_reasons": [
+        "Pyrotechnic / arson method profile"
+      ]
+    },
+    {
+      "case_id": "CASE-159",
+      "case_name": "Yoshio Kodaira",
+      "country": "Japan",
+      "macro_region": "Asia",
+      "active_start_year": 1932,
+      "duration_years": 15,
+      "victims_proven": 9,
+      "method_category": "Mixed / Forensic Unspecified",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": false,
+      "lof_flag": true,
+      "iso_score": 0.433,
+      "lof_score": 1.276,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-029",
+      "case_name": "Vasili Komaroff",
+      "country": "Russia (Soviet Union)",
+      "macro_region": "Europe",
+      "active_start_year": 1921,
+      "duration_years": 3,
+      "victims_proven": 33,
+      "method_category": "Stabbing / Sharp Instrument",
+      "location_type": "Residential / Private Residence",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.505,
+      "lof_score": 1.199,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-160",
+      "case_name": "Eric Edgar Cooke",
+      "country": "Australia",
+      "macro_region": "Oceania",
+      "active_start_year": 1959,
+      "duration_years": 5,
+      "victims_proven": 8,
+      "method_category": "Arson / Fire",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.507,
+      "lof_score": 1.193,
+      "anomaly_reasons": [
+        "Pyrotechnic / arson method profile"
+      ]
+    },
+    {
+      "case_id": "CASE-352",
+      "case_name": "Shankill Butchers",
+      "country": "Unknown",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 8,
+      "method_category": "Stabbing / Sharp Instrument",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.505,
+      "lof_score": 1.168,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-369",
+      "case_name": "Wang Zongfang and Wang Zongwei",
+      "country": "China",
+      "macro_region": "Asia",
+      "active_start_year": 1983,
+      "duration_years": 4,
+      "victims_proven": 8,
+      "method_category": "Firearm",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.514,
+      "lof_score": 1.146,
+      "anomaly_reasons": [
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-221",
+      "case_name": "Alexander Sergeychik",
+      "country": "Belarus",
+      "macro_region": "Europe",
+      "active_start_year": 2000,
+      "duration_years": 7,
+      "victims_proven": 6,
+      "method_category": "Firearm",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.517,
+      "lof_score": 1.127,
+      "anomaly_reasons": [
+        "Law enforcement background (rare occupational forensic profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-305",
+      "case_name": "Jane Toppan",
+      "country": "U.S.",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1901,
+      "duration_years": 4,
+      "victims_proven": 12,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Urban / Commercial Area",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.508,
+      "lof_score": 1.122,
+      "anomaly_reasons": [
+        "Healthcare professional involvement (statistically rare institutional setting)",
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-271",
+      "case_name": "Sek Kim Wah",
+      "country": "Singapore",
+      "macro_region": "Global / Unassigned",
+      "active_start_year": 1984,
+      "duration_years": 4,
+      "victims_proven": 8,
+      "method_category": "Stabbing / Sharp Instrument",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.502,
+      "lof_score": 1.112,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-380",
+      "case_name": "Fa Ziying and Lao Rongzhi",
+      "country": "China",
+      "macro_region": "Asia",
+      "active_start_year": 1996,
+      "duration_years": 4,
+      "victims_proven": 7,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Mixed / Multi-Site",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.503,
+      "lof_score": 1.109,
+      "anomaly_reasons": [
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    },
+    {
+      "case_id": "CASE-044",
+      "case_name": "Hua Ruizhuo",
+      "country": "China",
+      "macro_region": "Asia",
+      "active_start_year": 1998,
+      "duration_years": 4,
+      "victims_proven": 14,
+      "method_category": "Firearm",
+      "location_type": "Highway / Rural / Remote",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.509,
+      "lof_score": 1.09,
+      "anomaly_reasons": [
+        "Multi-attribute sparse feature combination in high-dimensional space"
+      ]
+    },
+    {
+      "case_id": "CASE-337",
+      "case_name": "Edson Izidoro Guimar\u00e3es",
+      "country": "Brazil",
+      "macro_region": "South America",
+      "active_start_year": 1999,
+      "duration_years": 4,
+      "victims_proven": 4,
+      "method_category": "Poisoning / Medical",
+      "location_type": "Healthcare / Institutional",
+      "isolation_forest_flag": true,
+      "lof_flag": false,
+      "iso_score": 0.521,
+      "lof_score": 1.017,
+      "anomaly_reasons": [
+        "Healthcare professional involvement (statistically rare institutional setting)",
+        "Biochemical / pharmacological method (rare non-violent trauma profile)"
+      ]
+    }
+  ]
+}

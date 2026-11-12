@@ -12,17 +12,34 @@ export const AnomalyPage: React.FC<AnomalyPageProps> = ({ onSelectCaseDetail }) 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let isMounted = true;
     api
       .getAnomalies()
-      .then((res) => setData(res))
+      .then((res) => {
+        if (isMounted && res) setData(res);
+      })
       .catch((e) => console.error(e))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
-  if (loading || !data) {
+  if (loading && !data) {
+    return (
+      <div className="py-20 text-center font-mono text-crime-muted text-sm flex flex-col items-center justify-center gap-3">
+        <div className="w-8 h-8 border-2 border-crime-red border-t-transparent rounded-full animate-spin" />
+        <div>Computing Isolation Forest and Local Outlier Factor decision boundaries...</div>
+      </div>
+    );
+  }
+
+  if (!data) {
     return (
       <div className="py-20 text-center font-mono text-crime-muted text-sm">
-        Computing Isolation Forest and Local Outlier Factor decision boundaries...
+        Unable to load anomaly data.
       </div>
     );
   }
