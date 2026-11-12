@@ -52,3 +52,4 @@ echo "  - FastAPI Docs:  http://localhost:8000/docs"
 echo "Press Ctrl+C to terminate both servers."
 
 wait
+
