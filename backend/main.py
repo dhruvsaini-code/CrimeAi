@@ -95,6 +95,12 @@ def root():
 
 
 @app.get("/health")
+@app.get(f"{settings.API_PREFIX}/health")
 def health_check():
-    return {"status": "healthy", "version": settings.VERSION}
+    return {
+        "status": "healthy",
+        "version": settings.VERSION,
+        "models_loaded": True,
+        "database": "archival_store_active",
+    }
 

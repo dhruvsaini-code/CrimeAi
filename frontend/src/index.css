@@ -3,30 +3,122 @@
 @tailwind utilities;
 
 :root {
-  --bg: #07080c;
-  --panel: #0e1118;
-  --card: #131722;
-  --line: #232837;
-  --text: #efe9e1;
-  --muted: #8b8f9a;
-  --red: #e11d2e;
-  --tape: #ffc400;
+  --bg: #050505;
+  --panel: #0a0b0e;
+  --card: #101116;
+  --line: #241416;
+  --text: #f3f4f6;
+  --muted: #9ca3af;
+  --blood: #8B0000;
+  --crimson: #C00000;
+  --red: #dc2626;
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar - Dark Forensic */
 ::-webkit-scrollbar {
   width: 7px;
   height: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #07080c;
+  background: #050505;
 }
 ::-webkit-scrollbar-thumb {
-  background: #232837;
-  border-radius: 4px;
+  background: #241416;
+  border-radius: 3px;
+  border: 1px solid #3a1517;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #e11d2e;
+  background: #8B0000;
+}
+
+/* Film Grain Texture Overlay */
+.film-grain {
+  background-image: radial-gradient(rgba(192, 0, 0, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Gothic Forensic Card Glow */
+.horror-card {
+  background: #101116;
+  border: 1px solid #241416;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(139, 0, 0, 0.15);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.horror-card:hover {
+  border-color: #8B0000;
+  box-shadow: 0 8px 30px -4px rgba(139, 0, 0, 0.3), 0 0 15px rgba(192, 0, 0, 0.2);
+}
+
+/* Red Pin on Evidence Board */
+.evidence-pin {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ff4d4d, #8B0000 70%, #300);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8), 0 0 8px rgba(255, 30, 30, 0.6);
+}
+
+/* Subtle Blood Drip Keyframes */
+@keyframes dripFall {
+  0% {
+    transform: translateY(0) scaleY(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(14px) scaleY(1.3) scaleX(0.85);
+    opacity: 0.95;
+  }
+  80% {
+    transform: translateY(32px) scaleY(1.7) scaleX(0.7);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(48px) scaleY(0.4) scaleX(1.4);
+    opacity: 0;
+  }
+}
+
+.animate-drip-1 {
+  animation: dripFall 4.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+}
+
+.animate-drip-2 {
+  animation: dripFall 5.8s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+}
+
+.animate-drip-3 {
+  animation: dripFall 4.9s 3.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+}
+
+/* Skeleton Gentle Float Animation */
+@keyframes skeletonBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-16px) rotate(1.5deg);
+  }
+}
+
+.skeleton-bob {
+  animation: skeletonBob 8s ease-in-out infinite;
+}
+
+/* Eye Glow Pulse */
+@keyframes eyeGlow {
+  0%, 100% {
+    opacity: 0.45;
+    filter: drop-shadow(0 0 3px #ff0000);
+  }
+  50% {
+    opacity: 0.95;
+    filter: drop-shadow(0 0 8px #ff1a1a);
+  }
+}
+
+.animate-eye-glow {
+  animation: eyeGlow 3s ease-in-out infinite;
 }
 
 /* Arc path drawing animation */
@@ -58,3 +150,19 @@
   }
 }
 
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skeleton-bob,
+  .animate-drip-1,
+  .animate-drip-2,
+  .animate-drip-3,
+  .animate-eye-glow {
+    animation: none !important;
+  }
+}

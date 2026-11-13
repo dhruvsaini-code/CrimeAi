@@ -47,6 +47,33 @@ async function tryFetch<T>(endpointPath: string, options?: RequestInit): Promise
 }
 
 export const api = {
+  checkHealth: async (): Promise<{ online: boolean; version?: string }> => {
+    const healthUrls = [
+      '/api/v1/health',
+      '/health',
+      'http://127.0.0.1:8000/api/v1/health',
+      'http://127.0.0.1:8000/health',
+      'http://localhost:8000/api/v1/health',
+    ];
+    for (const url of healthUrls) {
+      try {
+        const controller = new AbortController();
+        const tid = setTimeout(() => controller.abort(), 1200);
+        const res = await fetch(url, { signal: controller.signal });
+        clearTimeout(tid);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && (data.status === 'healthy' || data.status === 'Operational')) {
+            return { online: true, version: data.version || '1.0.0' };
+          }
+        }
+      } catch {
+        // try next
+      }
+    }
+    return { online: false };
+  },
+
   getOverviewStats: async (): Promise<DashboardStats> => {
     try {
       return await tryFetch<DashboardStats>('/overview/stats');

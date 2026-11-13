@@ -53,8 +53,8 @@ export const ParticleCanvas: React.FC = () => {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < 130) {
-            const alpha = (1 - dist / 130) * 0.25;
-            cx.strokeStyle = `rgba(225, 29, 46, ${alpha})`;
+            const alpha = (1 - dist / 130) * 0.35;
+            cx.strokeStyle = `rgba(192, 0, 0, ${alpha})`;
             cx.lineWidth = 0.8;
             cx.beginPath();
             cx.moveTo(a.x, a.y);
@@ -66,9 +66,9 @@ export const ParticleCanvas: React.FC = () => {
 
       // Draw particle dots
       particles.forEach((p) => {
-        cx.fillStyle = p.isAccent ? '#ffc400' : '#efe9e1';
-        cx.shadowColor = p.isAccent ? '#ffc400' : '#e11d2e';
-        cx.shadowBlur = p.isAccent ? 10 : 6;
+        cx.fillStyle = p.isAccent ? '#C00000' : '#d4d4d8';
+        cx.shadowColor = p.isAccent ? '#ff1a1a' : '#8B0000';
+        cx.shadowBlur = p.isAccent ? 12 : 6;
         cx.beginPath();
         cx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
         cx.fill();
