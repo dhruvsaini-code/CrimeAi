@@ -51,14 +51,14 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, backend
               <div className="absolute inset-0 rounded-lg bg-[#C00000]/10 blur-sm pointer-events-none" />
             </div>
             <div>
-              <div className="font-horror tracking-wider text-2xl sm:text-3xl text-[#f3f4f6] flex items-center gap-1.5 leading-none">
-                CRIME<span className="text-[#C00000] drop-shadow-[0_0_8px_rgba(192,0,0,0.8)]">PATTERN</span>
-                <span className="text-xs font-mono font-bold text-[#e5e7eb] tracking-widest ml-1 bg-[#1c080b] px-1.5 py-0.5 rounded border border-[#44161b]">
+              <div className="font-gothic tracking-widest text-xl sm:text-2xl font-bold text-[#f3f4f6] flex items-center gap-1.5 leading-none">
+                CRIME<span className="text-[#C00000] drop-shadow-[0_0_8px_rgba(192,0,0,0.65)]">PATTERN</span>
+                <span className="text-[10px] font-mono font-bold text-[#d1d5db] tracking-widest ml-1 bg-[#16080b] px-1.5 py-0.5 rounded border border-[#3d1418]">
                   AI
                 </span>
               </div>
-              <div className="text-[10px] font-mono text-[#9ca3af] uppercase tracking-widest">
-                Dark Archival Forensic System
+              <div className="text-[9px] font-mono text-[#9ca3af] uppercase tracking-[0.2em] mt-0.5">
+                Historical Forensic Archive
               </div>
             </div>
           </div>

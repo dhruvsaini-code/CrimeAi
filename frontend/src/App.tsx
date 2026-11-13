@@ -160,7 +160,7 @@ export const App: React.FC = () => {
       <footer className="relative z-20 border-t border-[#261416] bg-[#070709] py-6 text-xs font-mono text-[#9ca3af] mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="font-horror text-lg text-[#C00000]">CRIMEPATTERN AI</span>
+            <span className="font-gothic font-bold tracking-wider text-sm text-[#C00000]">CRIMEPATTERN AI</span>
             <span className="text-[#6b7280]">·</span>
             <span>Historical Forensic Machine Learning System</span>
           </div>

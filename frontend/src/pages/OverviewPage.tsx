@@ -3,7 +3,7 @@ import { DashboardStats } from '../types';
 import { ParticleCanvas } from '../components/ParticleCanvas';
 import { HeroTape } from '../components/HeroTape';
 import { ArchivalPhotoWall } from '../components/ArchivalPhotoWall';
-import { SkeletonSvg } from '../components/FloatingSkeletons';
+import { RealisticSkeleton } from '../components/FloatingSkeletons';
 import {
   Calendar,
   Globe2,
@@ -35,32 +35,61 @@ export const OverviewPage: React.FC<OverviewPageProps> = ({
 }) => {
   return (
     <div className="space-y-10">
-      {/* 1. CINEMATIC HORROR HERO SECTION */}
-      <div className="relative min-h-[500px] rounded-2xl bg-gradient-to-b from-[#130709] via-[#090a0d] to-[#050505] border border-[#331417] overflow-hidden p-6 sm:p-10 flex flex-col justify-between shadow-2xl">
+      {/* 1. CINEMATIC DOCUMENTARY HERO SECTION */}
+      <div className="relative min-h-[520px] rounded-xl bg-gradient-to-b from-[#110709] via-[#08080b] to-[#050505] border border-[#2d1316] overflow-hidden p-6 sm:p-10 flex flex-col justify-between shadow-2xl">
+        {/* Subtle Police Desk Investigation Room Atmosphere */}
+        <div className="absolute inset-0 z-0 opacity-[0.12] pointer-events-none">
+          <img
+            src="/assets/evidence_room_2.jpg"
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover object-center filter grayscale contrast-125 brightness-75"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/85 to-transparent" />
+        </div>
+
         <ParticleCanvas />
+
+        {/* Faint Floating Historical Portraits in Hero Backdrop */}
+        <div className="hidden md:block absolute top-8 right-[26%] w-36 h-48 opacity-[0.11] -rotate-6 pointer-events-none select-none border border-[#3a1a1d] p-1 bg-black/50">
+          <img
+            src="/assets/mugshots/ted_bundy.jpg"
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover filter grayscale contrast-150"
+          />
+        </div>
+        <div className="hidden lg:block absolute bottom-24 right-[19%] w-32 h-44 opacity-[0.09] rotate-3 pointer-events-none select-none border border-[#3a1a1d] p-1 bg-black/50">
+          <img
+            src="/assets/mugshots/richard_ramirez.jpg"
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover filter grayscale contrast-150"
+          />
+        </div>
 
         {/* Ambient blood-red atmospheric lighting */}
         <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-[#8B0000]/15 rounded-full blur-[120px] pointer-events-none" />
         <div className="absolute bottom-0 left-10 w-[450px] h-[450px] bg-[#C00000]/10 rounded-full blur-[100px] pointer-events-none" />
 
-        {/* Giant Floating Skeleton Silhouette Behind Hero Heading */}
-        <div className="absolute -top-12 -right-8 sm:right-12 w-[340px] sm:w-[460px] h-[720px] opacity-[0.16] pointer-events-none select-none skeleton-bob">
-          <SkeletonSvg glowEyes opacity={1} className="w-full h-full filter drop-shadow-[0_0_20px_rgba(139,0,0,0.6)]" />
+        {/* Photorealistic Giant Anatomical Skeleton Behind Hero Right */}
+        <div className="absolute -top-4 -right-10 sm:right-6 h-[440px] sm:h-[540px] w-auto pointer-events-none select-none skeleton-bob z-[2]" style={{ animationDuration: '14s' }}>
+          <RealisticSkeleton variant={1} opacity={0.22} className="h-full w-auto" />
         </div>
 
         <div className="relative z-10 max-w-3xl">
-          {/* Gothic Tagline Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#18090b] border border-[#44161b] text-xs font-mono text-[#ff4d4d] mb-4 shadow-lg shadow-[#8B0000]/20">
-            <Skull className="w-3.5 h-3.5 text-[#C00000] animate-pulse" />
-            <span className="font-gothic uppercase tracking-widest text-[11px]">
+          {/* Documentary Tagline Badge */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded bg-[#14080a] border border-[#3d1519] text-xs font-mono text-[#dc2626] mb-4 shadow-lg shadow-[#8B0000]/20">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C00000] animate-pulse" />
+            <span className="font-gothic uppercase tracking-[0.2em] text-[10px] text-[#e5e7eb]">
               UNSUPERVISED ARCHIVAL FORENSIC PATTERN SYSTEM
             </span>
           </div>
 
-          {/* Creepster / Cinzel Display Heading */}
-          <h1 className="text-4xl sm:text-6xl font-gothic font-bold tracking-tight text-[#f3f4f6] leading-[1.08] mb-4">
+          {/* Mature Cinzel Documentary Display Heading */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-gothic font-bold tracking-tight text-[#f3f4f6] leading-[1.1] mb-4 drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)]">
             Which historical serial cases{' '}
-            <span className="font-horror text-5xl sm:text-7xl text-[#C00000] drop-shadow-[0_0_12px_rgba(192,0,0,0.9)] tracking-wider inline-block">
+            <span className="text-[#C00000] drop-shadow-[0_0_16px_rgba(192,0,0,0.5)]">
               look alike?
             </span>
           </h1>
