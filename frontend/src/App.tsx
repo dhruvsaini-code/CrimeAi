@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { BloodDrip } from './components/BloodDrip';
-import { FloatingSkeletons } from './components/FloatingSkeletons';
+import { ForensicBackdrop } from './components/ForensicBackdrop';
 import { CaseDossierModal } from './components/CaseDossierModal';
 import { OverviewPage } from './pages/OverviewPage';
 import { CaseExplorerPage } from './pages/CaseExplorerPage';
@@ -65,26 +65,28 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#050505] text-[#efe9e1] flex flex-col font-sans selection:bg-[#8B0000] selection:text-white">
-      {/* Subtle Dark Red Ambient Glows */}
-      <div className="fixed top-0 left-1/4 w-[600px] h-[600px] bg-[#8B0000]/10 rounded-full blur-[140px] pointer-events-none z-0" />
-      <div className="fixed bottom-0 right-10 w-[500px] h-[500px] bg-[#C00000]/5 rounded-full blur-[140px] pointer-events-none z-0" />
+    <div className="relative min-h-screen bg-[#040406] text-[#efe9e1] flex flex-col font-sans selection:bg-[#8B0000] selection:text-white">
+      {/* Full-Screen Layered Forensic Investigation Backdrop */}
+      <ForensicBackdrop />
 
-      {/* Giant Full-Body Anatomical Skeletons Floating in Background */}
-      <FloatingSkeletons variant="full" />
-
-      {/* Top Gothic Command Center Header */}
+      {/* Top Documentary Command Center Header */}
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         backendOnline={backendOnline}
       />
 
-      {/* Realistic Dripping Blood Edge along the top under Navbar */}
+      {/* Realistic Photographic Dripping Blood Accent */}
       <BloodDrip variant="top-banner" />
 
-      {/* Main Content Area */}
-      <main className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Main Content Area: Full-bleed for Overview homepage, centered container for analytical subpages */}
+      <main
+        className={
+          activeTab === 'overview'
+            ? 'relative z-10 flex-1 w-full'
+            : 'relative z-10 flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8'
+        }
+      >
         {activeTab === 'overview' && (
           <OverviewPage
             stats={stats}
