@@ -130,9 +130,9 @@ export const App: React.FC = () => {
 
         {activeTab === 'analyze' && (
           <div className="space-y-6">
-            <div className="bg-[#0b0c10] border border-[#261416] p-6 rounded-xl shadow-2xl relative overflow-hidden">
+            <div className="bg-[#0b0c10] border border-[#222226] p-6 rounded-sm shadow-2xl relative overflow-hidden">
               <div className="relative z-10">
-                <h2 className="text-3xl font-gothic font-bold text-[#f3f4f6]">
+                <h2 className="text-3xl font-oswald font-semibold uppercase tracking-wide text-[#f3f4f6]">
                   Forensic Case Comparison & Similarity Engine
                 </h2>
                 <p className="text-xs text-[#9ca3af] font-mono mt-1">
@@ -160,7 +160,7 @@ export const App: React.FC = () => {
       <footer className="relative z-20 border-t border-[#261416] bg-[#070709] py-6 text-xs font-mono text-[#9ca3af] mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="font-gothic font-bold tracking-wider text-sm text-[#C00000]">CRIMEPATTERN AI</span>
+            <span className="font-bebas tracking-wide text-lg text-[#C00000]">CRIMEPATTERN AI</span>
             <span className="text-[#6b7280]">·</span>
             <span>Historical Forensic Machine Learning System</span>
           </div>

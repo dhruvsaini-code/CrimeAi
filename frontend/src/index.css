@@ -4,17 +4,16 @@
 
 :root {
   --bg: #050505;
-  --panel: #0a0b0e;
-  --card: #101116;
-  --line: #241416;
-  --text: #f3f4f6;
+  --panel: #0b0b0e;
+  --card: #101014;
+  --line: #232327;
+  --text: #ededed;
   --muted: #9ca3af;
   --blood: #8B0000;
-  --crimson: #C00000;
-  --red: #dc2626;
+  --crimson: #b91c1c;
 }
 
-/* Custom Scrollbar - Dark Forensic */
+/* Custom Scrollbar - Documentary Charcoal */
 ::-webkit-scrollbar {
   width: 7px;
   height: 7px;
@@ -23,102 +22,100 @@
   background: #050505;
 }
 ::-webkit-scrollbar-thumb {
-  background: #241416;
-  border-radius: 3px;
-  border: 1px solid #3a1517;
+  background: #27272a;
+  border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8B0000;
+  background: #7f1d1d;
 }
 
-/* Film Grain Texture Overlay */
+/* Authentic Photographic Film Grain Texture */
 .film-grain {
-  background-image: radial-gradient(rgba(192, 0, 0, 0.08) 1px, transparent 0);
-  background-size: 24px 24px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.06'/%3E%3C/svg%3E");
 }
 
-/* Gothic Forensic Card Glow */
+/* Documentary Panel Card (Natural Shadow, No Neon) */
 .horror-card {
-  background: #101116;
-  border: 1px solid #241416;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(139, 0, 0, 0.15);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  background: #0d0d10;
+  border: 1px solid #222226;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.9);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 .horror-card:hover {
-  border-color: #8B0000;
-  box-shadow: 0 8px 30px -4px rgba(139, 0, 0, 0.3), 0 0 15px rgba(192, 0, 0, 0.2);
+  border-color: #6b1414;
+  box-shadow: 0 14px 36px -8px rgba(0, 0, 0, 0.95), 0 4px 16px -4px rgba(139, 0, 0, 0.22);
 }
 
-/* Red Pin on Evidence Board */
+/* Distressed Vintage Photograph Paper Border */
+.archival-photo {
+  background: #171614;
+  border: 1px solid #2d2b28;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85), 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Evidence Board Pin */
 .evidence-pin {
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #ff4d4d, #8B0000 70%, #300);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8), 0 0 8px rgba(255, 30, 30, 0.6);
+  background: radial-gradient(circle at 32% 32%, #dc2626, #7f1d1d 65%, #2a0404);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
 }
 
-/* Subtle Blood Drip Keyframes */
-@keyframes dripFall {
+/* Slow Gravity-Driven Photographic Blood Drop */
+@keyframes photoBloodDrop {
   0% {
-    transform: translateY(0) scaleY(1);
-    opacity: 0.9;
+    transform: translateY(-20px) scaleY(0.95);
+    opacity: 0;
   }
-  50% {
-    transform: translateY(14px) scaleY(1.3) scaleX(0.85);
-    opacity: 0.95;
+  15% {
+    opacity: 0.75;
   }
-  80% {
-    transform: translateY(32px) scaleY(1.7) scaleX(0.7);
-    opacity: 0.8;
+  75% {
+    transform: translateY(110px) scaleY(1.06);
+    opacity: 0.65;
   }
   100% {
-    transform: translateY(48px) scaleY(0.4) scaleX(1.4);
+    transform: translateY(150px) scaleY(1.1);
     opacity: 0;
   }
 }
 
-.animate-drip-1 {
-  animation: dripFall 4.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+.animate-photo-drop-1 {
+  animation: photoBloodDrop 7.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
-.animate-drip-2 {
-  animation: dripFall 5.8s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+.animate-photo-drop-2 {
+  animation: photoBloodDrop 10.2s 3.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
-.animate-drip-3 {
-  animation: dripFall 4.9s 3.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
+/* Subtle Drift for Archival Backdrop */
+@keyframes archivalDrift {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px) rotate(var(--tw-rotate, 0deg));
+  }
+  50% {
+    transform: translateY(-10px) translateX(6px) rotate(var(--tw-rotate, 0deg));
+  }
 }
 
-/* Skeleton Gentle Float Animation */
+.archival-drift {
+  animation: archivalDrift 16s ease-in-out infinite;
+}
+
+/* Skeleton Subtle Cinematic Float */
 @keyframes skeletonBob {
   0%, 100% {
     transform: translateY(0px) rotate(0deg);
   }
   50% {
-    transform: translateY(-16px) rotate(1.5deg);
+    transform: translateY(-14px) rotate(1.2deg);
   }
 }
 
 .skeleton-bob {
-  animation: skeletonBob 8s ease-in-out infinite;
-}
-
-/* Eye Glow Pulse */
-@keyframes eyeGlow {
-  0%, 100% {
-    opacity: 0.45;
-    filter: drop-shadow(0 0 3px #ff0000);
-  }
-  50% {
-    opacity: 0.95;
-    filter: drop-shadow(0 0 8px #ff1a1a);
-  }
-}
-
-.animate-eye-glow {
-  animation: eyeGlow 3s ease-in-out infinite;
+  animation: skeletonBob 12s ease-in-out infinite;
 }
 
 /* Arc path drawing animation */
@@ -159,10 +156,9 @@
     scroll-behavior: auto !important;
   }
   .skeleton-bob,
-  .animate-drip-1,
-  .animate-drip-2,
-  .animate-drip-3,
-  .animate-eye-glow {
+  .archival-drift,
+  .animate-photo-drop-1,
+  .animate-photo-drop-2 {
     animation: none !important;
   }
 }

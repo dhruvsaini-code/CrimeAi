@@ -38,32 +38,31 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, backend
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-[#070709]/95 backdrop-blur-md border-b border-[#281315]">
+    <header className="sticky top-0 z-50 bg-[#060608]/95 backdrop-blur-md border-b border-[#202024]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo with Creepster font & Gothic Horror Emblem */}
+          {/* Logo with Bebas Neue condensed documentary typography */}
           <div
             onClick={() => setActiveTab('overview')}
-            className="flex items-center gap-3 cursor-pointer group select-none"
+            className="flex items-center gap-2.5 cursor-pointer group select-none"
           >
-            <div className="relative w-10 h-10 rounded-lg bg-[#120709] border border-[#3d1418] flex items-center justify-center group-hover:border-[#C00000] group-hover:shadow-[0_0_15px_rgba(192,0,0,0.5)] transition-all">
-              <Skull className="w-5 h-5 text-[#C00000] group-hover:scale-110 transition-transform" />
-              <div className="absolute inset-0 rounded-lg bg-[#C00000]/10 blur-sm pointer-events-none" />
+            <div className="w-9 h-9 rounded-sm bg-[#111114] border border-[#2d2d33] flex items-center justify-center group-hover:border-[#8B0000] transition-colors">
+              <Skull className="w-4 h-4 text-[#b91c1c]" />
             </div>
             <div>
-              <div className="font-gothic tracking-widest text-xl sm:text-2xl font-bold text-[#f3f4f6] flex items-center gap-1.5 leading-none">
-                CRIME<span className="text-[#C00000] drop-shadow-[0_0_8px_rgba(192,0,0,0.65)]">PATTERN</span>
-                <span className="text-[10px] font-mono font-bold text-[#d1d5db] tracking-widest ml-1 bg-[#16080b] px-1.5 py-0.5 rounded border border-[#3d1418]">
+              <div className="font-bebas text-2xl sm:text-[28px] tracking-wide text-[#f3f4f6] flex items-center gap-1 leading-none">
+                CRIME<span className="text-[#C00000]">PATTERN</span>
+                <span className="text-[10px] font-typewriter text-[#d1d5db] ml-1.5 bg-[#16161a] px-1.5 py-0.5 rounded-sm border border-[#2e2e34]">
                   AI
                 </span>
               </div>
-              <div className="text-[9px] font-mono text-[#9ca3af] uppercase tracking-[0.2em] mt-0.5">
+              <div className="text-[9px] font-typewriter text-[#9ca3af] uppercase tracking-wider">
                 Historical Forensic Archive
               </div>
             </div>
           </div>
 
-          {/* Navigation Items */}
+          {/* Navigation Items with Oswald */}
           <nav className="hidden xl:flex items-center space-x-1">
             {navItems.map((item) => {
               const Icon = item.icon;
@@ -72,14 +71,14 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, backend
                 <button
                   key={item.id}
                   onClick={() => setActiveTab(item.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-medium transition-all duration-200 ${
+                  className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-sm font-oswald text-xs uppercase tracking-wide transition-colors ${
                     isActive
-                      ? 'bg-[#150a0d] text-[#ff4d4d] border border-[#521319] shadow-[0_0_12px_rgba(192,0,0,0.35)]'
-                      : 'text-[#9ca3af] hover:text-[#f3f4f6] hover:bg-[#140b0e]'
+                      ? 'bg-[#151214] text-[#ef4444] border-b-2 border-[#b91c1c]'
+                      : 'text-[#9ca3af] hover:text-[#f3f4f6] hover:bg-[#111115]'
                   }`}
                 >
-                  <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-[#ff4d4d]' : 'text-[#71717a]'}`} />
-                  <span className={isActive ? 'font-semibold tracking-wide' : ''}>{item.label}</span>
+                  <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-[#dc2626]' : 'text-[#71717a]'}`} />
+                  <span>{item.label}</span>
                 </button>
               );
             })}

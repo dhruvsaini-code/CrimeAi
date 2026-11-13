@@ -35,10 +35,10 @@ export default {
         }
       },
       fontFamily: {
-        horror: ['"Creepster"', 'cursive'],
-        gothic: ['"Cinzel"', 'serif'],
-        gothicDisplay: ['"Cinzel Decorative"', '"Cinzel"', 'serif'],
-        display: ['"Cinzel"', '"Space Grotesk"', 'serif'],
+        bebas: ['"Bebas Neue"', 'Impact', 'sans-serif'],
+        oswald: ['"Oswald"', 'sans-serif'],
+        typewriter: ['"Special Elite"', 'monospace'],
+        display: ['"Bebas Neue"', '"Oswald"', 'sans-serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
       },
