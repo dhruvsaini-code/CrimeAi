@@ -19,7 +19,21 @@ import { api } from './services/api';
 import { DashboardStats, CaseItem, TimelineData } from './types';
 
 export const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>('overview');
+  const [activeTab, setActiveTabState] = useState<string>(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('tab') || 'overview';
+  });
+
+  const setActiveTab = (tab: string) => {
+    setActiveTabState(tab);
+    const url = new URL(window.location.href);
+    if (tab === 'overview') {
+      url.searchParams.delete('tab');
+    } else {
+      url.searchParams.set('tab', tab);
+    }
+    window.history.replaceState({}, '', url.toString());
+  };
   const [stats, setStats] = useState<DashboardStats | null>(null);
   const [timelineData, setTimelineData] = useState<TimelineData | null>(null);
   const [geoSummary, setGeoSummary] = useState<any | null>(null);
