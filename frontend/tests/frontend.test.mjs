@@ -25,9 +25,12 @@ console.log('✓ dist/index.html has valid CrimePattern AI title');
 // 2. Verify fonts configuration in index.html
 const srcHtml = fs.readFileSync(path.join(__dirname, 'frontend/index.html'), 'utf-8');
 assert(srcHtml.includes('Space+Grotesk'), 'Space Grotesk font must be loaded');
+assert(srcHtml.includes('Bebas+Neue'), 'Bebas Neue documentary display font must be loaded');
+assert(srcHtml.includes('Oswald'), 'Oswald section heading font must be loaded');
+assert(srcHtml.includes('Special+Elite'), 'Special Elite archival label font must be loaded');
 assert(srcHtml.includes('Inter'), 'Inter font must be loaded');
 assert(srcHtml.includes('IBM+Plex+Mono'), 'IBM Plex Mono font must be loaded');
-console.log('✓ Google Fonts: Space Grotesk, Inter, and IBM Plex Mono verified');
+console.log('✓ Google Fonts: Bebas Neue, Oswald, Special Elite, Space Grotesk, Inter, and IBM Plex Mono verified');
 
 // 3. Verify Tailwind color palette tokens
 const tailwindConfig = fs.readFileSync(path.join(__dirname, 'frontend/tailwind.config.js'), 'utf-8');
@@ -39,6 +42,7 @@ console.log('✓ Tailwind configuration design tokens verified');
 // 4. Verify API client methods
 const apiContent = fs.readFileSync(path.join(__dirname, 'frontend/src/services/api.ts'), 'utf-8');
 const expectedMethods = [
+  'checkHealth',
   'getOverviewStats',
   'getCases',
   'getTimeline',
