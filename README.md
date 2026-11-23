@@ -1,7 +1,18 @@
 # CrimePattern AI — Historical Serial Crime Analysis and Pattern Discovery System
 
 > **Applications of AI — Course Project Demonstration & Viva**  
+> **Team Members:** Dhruv Saini (`S24CSEU0818`) · Aarush Saxena (`S24CSEU1682`)  
+> **Presentation:** [`CrimePattern_AI_Presentation.pptx`](./CrimePattern_AI_Presentation.pptx)  
 > **Ethical Notice:** CrimePattern AI is an academic and educational research system analyzing publicly documented historical serial crime cases. It discovers unsupervised patterns, clusters forensic modalities, mines association rules, and evaluates explainable NLP retrieval. It **never** predicts criminality, identifies suspects, or profiles living individuals.
+
+---
+
+## Team & Roles
+
+| Member | Enrollment ID | Responsibilities |
+|---|---|---|
+| **Dhruv Saini** | `S24CSEU0818` | Full-stack architecture, Snappy-IWA dataset extraction (`492` cases, `83` countries), FastAPI backend (`13` routers), unsupervised clustering (`5` algorithms + PCA), hybrid search (`BM25`, `TF-IDF`, `SVD`), NetworkX graph intelligence, Isolation Forest/LOF, and backend ASGI test suite. |
+| **Aarush Saxena** | `S24CSEU1682` | Frontend UI/UX (React 18 + TypeScript + Tailwind documentary archive theme), interactive PCA Cluster Galaxy & Timeline charts, 3-mode geospatial vulnerability map, Apriori/PrefixSpan pattern mining UI, live `/health` integration, offline cache resilience, and dossier export. |
 
 ---
 
